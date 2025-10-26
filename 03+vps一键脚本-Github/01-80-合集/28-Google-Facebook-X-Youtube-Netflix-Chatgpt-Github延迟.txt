@@ -1,0 +1,5 @@
+文件名：28-Google-Facebook-X-Youtube-Netflix-Chatgpt-Github延迟.txt
+
+名称：Google-Facebook-X-Youtube-Netflix-Chatgpt-Github延迟
+描述：测试主流服务延迟。
+命令：bash <(curl -sL https://nodebench.mereith.com/scripts/curltime.sh)

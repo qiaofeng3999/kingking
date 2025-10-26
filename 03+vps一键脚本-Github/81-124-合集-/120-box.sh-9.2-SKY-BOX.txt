@@ -1,0 +1,9 @@
+文件名：120-box.sh-9.2-SKY-BOX.txt
+
+编号（原）：9.2
+名称：SKY-BOX
+原始文件名：box.sh
+描述说明：综合工具箱，集成多种服务器管理和优化功能。
+
+对应命令：
+wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh && chmod +x box.sh && clear && ./box.sh

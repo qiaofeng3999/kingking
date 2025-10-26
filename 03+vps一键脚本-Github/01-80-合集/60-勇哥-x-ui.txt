@@ -1,0 +1,5 @@
+文件名：60-勇哥-x-ui.txt
+
+名称：勇哥-x-ui
+描述：X-UI面板安装脚本。
+命令：bash <(curl -Ls https://gitlab.com/rwkgyg/x-ui-yg/raw/main/install.sh)

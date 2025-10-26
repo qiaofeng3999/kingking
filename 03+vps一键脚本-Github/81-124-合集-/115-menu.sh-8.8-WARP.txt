@@ -1,0 +1,9 @@
+文件名：115-menu.sh-8.8-WARP.txt
+
+编号（原）：8.8
+名称：WARP
+原始文件名：menu.sh
+描述说明：安装Cloudflare WARP，优化网络连接和解锁部分服务。
+
+对应命令：
+wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh

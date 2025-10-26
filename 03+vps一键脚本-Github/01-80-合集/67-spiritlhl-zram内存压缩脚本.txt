@@ -1,0 +1,5 @@
+文件名：67-spiritlhl-zram内存压缩脚本.txt
+
+名称：spiritlhl-zram内存压缩脚本
+描述：启用zram内存压缩。
+命令：curl -L https://raw.githubusercontent.com/spiritLHLS/addzram/main/addzram.sh -o addzram.sh && chmod +x addzram.sh && bash addzram.sh

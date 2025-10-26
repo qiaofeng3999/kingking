@@ -1,0 +1,9 @@
+文件名：101-swap.sh-7.1-添加SWAP.txt
+
+编号（原）：7.1
+名称：添加SWAP
+原始文件名：swap.sh
+描述说明：为系统添加虚拟内存，适合低内存服务器。
+
+对应命令：
+wget https://www.moerats.com/usr/shell/swap.sh && bash swap.sh

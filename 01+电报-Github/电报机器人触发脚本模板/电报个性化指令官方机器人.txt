@@ -1,0 +1,28 @@
+<b>Telegram 有用机器人和频道推荐</b><br>
+1. 🔹 <b>@BotFather</b><br>官方创建机器人。用于创建 Telegram 机器人并管理其设置（如命令、描述、头像等）。<br>
+2. 🔍 <b>@LivegramBot</b><br>官方创建机器人。为 Telegram 用户提供实时数据和统计信息。<br>
+3. 🛡️ <b>@SpamBot</b><br>官方申诉机器人。用于报告和处理 Telegram 群组中的垃圾信息或违规行为。<br>
+4. 📋 <b>@GroupHelpBot</b><br>创建规则按钮机器人。帮助群主为群组添加自定义规则按钮，让成员可以轻松查看群规。<br>
+5. ⚙️ <b>@combot</b><br>群组管理机器人。提供反垃圾、统计、自动化管理等功能，增强群组的管理体验。<br>
+6. 🛠️ <b>@MissRose_bot</b><br>Telegram 机器人开发工具，通常用于自动化任务和群组管理。<br>
+7. 🤖 <b>@nmnmfunbot</b><br>群组机器人，用于群组管理和自动化任务，如发通知和管理成员。<br>
+8. 👤 <b>@userinfobot</b><br>帮助用户获取他人 Telegram 用户 ID，通常用于群组管理和排查。<br>
+9. 🆔 <b>@nminfobot</b><br>ID 查询机器人，帮助用户查询自己的 Telegram ID。<br>
+10. 📊 <b>@KinhRoBot</b><br>查看账户数据中心，提供有关 Telegram 账户统计和数据管理的服务。<br>
+11. ⏰ <b>@checktgtime_bot</b><br>查询 Telegram 账户的注册时间，查看账户创建的历史。<br>
+12. 📧 <b>@TempMail_org_bot</b><br>临时邮箱生成器，提供匿名、一次性的电子邮件地址，保护用户隐私。<br>
+13. 🛠️ <b>@VersaToolsBot</b><br>提供各种工具功能的机器人，帮助用户进行网络分析、任务自动化等。<br>
+14. 🎥 <b>@vid</b><br>视频相关功能的机器人，帮助用户处理视频文件，进行格式转换等操作。<br>
+15. 📹 <b>@YTsavebot</b><br>YouTube 视频下载机器人，帮助用户将 YouTube 视频下载到本地。<br>
+16. 💾 <b>@SaveOFFbot</b><br>提供在线资源保存和管理的功能。<br>
+17. 📚 <a href="https://t.me/TelegramTips">TelegramTips</a><br>提供 Telegram 使用技巧和教程的频道，帮助用户更好地使用 Telegram。<br>
+18. 🇨🇳 <a href="https://t.me/zh_cnaank">zh_cnaank</a><br>简体中文。提供 Telegram 的简体中文帮助和使用指南。<br>
+19. 📦 <a href="https://t.me/zh_cnymn">zh_cnymn</a><br>中文安装包。提供 Telegram 中文版的下载和安装包信息。<br>
+20. 🔤 <a href="https://t.me/zh_cn5rh">zh_cn5rh</a><br>中文翻译简体中文。提供简体中文翻译服务。<br>
+21. 🚀 <a href="https://t.me/warppluscn">warppluscn</a><br>提供 WARP+ 加速服务的 Telegram 频道。<br>
+22. 🌐 <a href="https://t.me/warpplus">warpplus</a><br>提供 WARP+ 服务相关信息，帮助用户了解和使用 WARP 加速功能。<br>
+23. 🔧 <a href="https://t.me/dns68">dns68</a><br>提供 DNS 相关信息和设置，帮助用户优化网络连接。<br>
+24. 🌍 <a href="https://t.me/digitalplatdomain">digitalplatdomain</a><br>提供数字平台域名服务的频道。<br>
+25. 🖥️ <a href="https://t.me/GUI_for_Cores_Channel">GUI_for_Cores_Channel</a><br>提供 Cores 系统图形界面的频道，帮助用户使用和配置系统。<br>
+26. 📰 <a href="https://t.me/LoonNews">LoonNews</a><br>
+

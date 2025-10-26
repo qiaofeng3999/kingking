@@ -1,0 +1,5 @@
+文件名：74-一键删除平台监控.txt
+
+名称：一键删除平台监控
+描述：移除阿里云、腾讯云、华为云、UCLOUD、甲骨文云、京东云等监控。
+命令：curl -L https://raw.githubusercontent.com/spiritLHLS/one-click-installation-script/main/install_scripts/dlm.sh -o dlm.sh && chmod +x dlm.sh && bash dlm.sh

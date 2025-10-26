@@ -1,0 +1,9 @@
+文件名：94-speedtest.sh-5.1-Speedtest.txt
+
+编号（原）：5.1
+名称：Speedtest
+原始文件名：speedtest.sh
+描述说明：测试服务器上下行带宽，基于Speedtest.net。
+
+对应命令：
+bash <(curl -sL bash.icu/speedtest)

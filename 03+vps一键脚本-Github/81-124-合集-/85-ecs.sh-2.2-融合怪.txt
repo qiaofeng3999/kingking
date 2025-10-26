@@ -1,0 +1,9 @@
+文件名：85-ecs.sh-2.2-融合怪.txt
+
+编号（原）：2.2
+名称：融合怪
+原始文件名：ecs.sh
+描述说明：多功能综合测试脚本，测试服务器性能、网络和系统配置。
+
+对应命令：
+bash <(wget -qO- --no-check-certificate https://gitlab.com/spiritysdx/za/-/raw/main/ecs.sh)

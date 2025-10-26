@@ -1,0 +1,9 @@
+文件名：113-install.sh-8.6-极光面板.txt
+
+编号（原）：8.6
+名称：极光面板
+原始文件名：install.sh
+描述说明：安装极光管理面板，简化服务器管理。
+
+对应命令：
+bash <(curl -fsSL https://raw.githubusercontent.com/Aurora-Admin-Panel/deploy/main/install.sh)

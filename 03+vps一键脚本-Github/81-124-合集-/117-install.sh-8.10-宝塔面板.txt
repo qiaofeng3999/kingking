@@ -1,0 +1,9 @@
+文件名：117-install.sh-8.10-宝塔面板.txt
+
+编号（原）：8.10
+名称：宝塔面板
+原始文件名：install.sh
+描述说明：安装宝塔面板，集成网站、数据库和文件管理。
+
+对应命令：
+wget -O install.sh http://v7.hostcli.com/install/install-ubuntu_6.0.sh && sudo bash install.sh

@@ -1,0 +1,5 @@
+文件名：69-fail2ban服务器SSH防爆破.txt
+
+名称：fail2ban服务器SSH防爆破
+描述：安装fail2ban防止SSH暴力破解。
+命令：wget https://raw.githubusercontent.com/FunctionClub/Fail2ban/master/fail2ban.sh && bash fail2ban.sh 2>&1 | tee fail2ban.log

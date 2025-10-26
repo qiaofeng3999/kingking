@@ -1,0 +1,9 @@
+文件名：99-AutoTrace.sh-6.2-回程详细测试.txt
+
+编号（原）：6.2
+名称：回程详细测试
+原始文件名：AutoTrace.sh
+描述说明：详细测试回程路由，推荐使用，包含全面信息。
+
+对应命令：
+wget -N --no-check-certificate https://raw.githubusercontent.com/Chennhaoo/Shell_Bash/master/AutoTrace.sh && chmod +x AutoTrace.sh && bash AutoTrace.sh

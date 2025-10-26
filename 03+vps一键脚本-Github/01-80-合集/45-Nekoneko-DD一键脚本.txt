@@ -1,0 +1,5 @@
+文件名：45-Nekoneko-DD一键脚本.txt
+
+名称：Nekoneko-DD一键脚本
+描述：一键重装系统脚本。
+命令：bash <(curl -Lso- http://sh.nekoneko.cloud/DD/AutoReinstall.sh)

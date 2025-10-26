@@ -1,0 +1,9 @@
+文件名：104-tcp.sh-7.4-多功能BBR脚本.txt
+
+编号（原）：7.4
+名称：多功能BBR脚本
+原始文件名：tcp.sh
+描述说明：支持多种BBR变种，优化网络性能。
+
+对应命令：
+wget -N --no-check-certificate "https://gist.github.com/zeruns/a0ec603f20d1b86de6a774a8ba27588f/raw/4f9957ae23f5efb2bb7c57a198ae2cffebfb1c56/tcp.sh" && chmod +x tcp.sh && ./tcp.sh

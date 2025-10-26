@@ -1,0 +1,5 @@
+文件名：54-Nekoneko-BBR一键安装.txt
+
+名称：Nekoneko-BBR一键安装
+描述：一键安装BBR网络优化。
+命令：bash <(curl -Lso- http://sh.nekoneko.cloud/bbr/bbr.sh)

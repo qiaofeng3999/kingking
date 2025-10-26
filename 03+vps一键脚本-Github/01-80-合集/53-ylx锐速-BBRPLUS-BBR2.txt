@@ -1,0 +1,5 @@
+文件名：53-ylx锐速-BBRPLUS-BBR2.txt
+
+名称：ylx锐速-BBRPLUS-BBR2
+描述：网络优化脚本。
+命令：wget -O tcpx.sh "https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcpx.sh" && chmod +x tcpx.sh && ./tcpx.sh

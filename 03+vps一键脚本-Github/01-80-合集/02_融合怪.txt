@@ -1,0 +1,8 @@
+文件名：02_融合怪
+
+描述：
+VPS综合测试，包括配置信息、网络、流媒体解锁、路由等。
+
+命令：
+curl -L https://gitlab.com/spiritysdx/za/-/raw/main/ecs.sh -o ecs.sh && chmod +x ecs.sh && bash ecs.sh
+bash <(wget -qO- bash.spiritlhl.net/ecs)

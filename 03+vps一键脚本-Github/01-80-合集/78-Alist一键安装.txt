@@ -1,0 +1,5 @@
+文件名：78-Alist一键安装.txt
+
+名称：Alist一键安装
+描述：安装Alist文件管理平台。
+命令：curl -fsSL "https://alist.nn.ci/v3.sh" | bash -s install

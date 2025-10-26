@@ -1,0 +1,9 @@
+文件名：80-InstallNET.sh-1.1-史上最强DD脚本.txt
+
+编号（原）：1.1
+名称：史上最强DD脚本
+原始文件名：InstallNET.sh
+描述说明：一键重装Linux系统，支持Debian 12，指定密码，适合快速部署。
+
+对应命令：
+wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh' && chmod a+x InstallNET.sh && bash InstallNET.sh -debian 12 -pwd 'password'

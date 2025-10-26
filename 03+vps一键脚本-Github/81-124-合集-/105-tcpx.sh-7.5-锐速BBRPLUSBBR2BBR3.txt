@@ -1,0 +1,9 @@
+文件名：105-tcpx.sh-7.5-锐速BBRPLUSBBR2BBR3.txt
+
+编号（原）：7.5
+名称：锐速/BBRPLUS/BBR2/BBR3
+原始文件名：tcpx.sh
+描述说明：安装多种网络加速方案，优化网络性能。
+
+对应命令：
+wget -O tcpx.sh "https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcpx.sh" && chmod +x tcpx.sh && ./tcpx.sh

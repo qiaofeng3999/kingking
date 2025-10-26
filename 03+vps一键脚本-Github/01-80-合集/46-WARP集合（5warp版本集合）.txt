@@ -1,0 +1,5 @@
+文件名：46-WARP集合（5warp版本集合）.txt
+
+名称：WARP集合（5warp版本集合）
+描述：Cloudflare WARP脚本，添加IPv4/IPv6网络。
+命令：bash <(curl -sSL https://gitlab.com/fscarmen/warp_unlock/-/raw/main/unlock.sh)

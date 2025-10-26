@@ -1,0 +1,8 @@
+文件名：63-IPV6小鸡科学三步曲.txt
+
+名称：IPV6小鸡科学三步曲
+描述：配置DNS64、WARP IPv4、argox或sba。
+命令：DNS64: cp /etc/resolv.conf{,.bak}; echo -e "nameserver 2a00:1098:2b::1\nnameserver 2a01:4f9:c010:3f02::1\nnameserver 2a01:4f8:c2c:123f::1\nnameserver 2a00:1098:2c::1" > /etc/resolv.conf
+WARP IPv4: wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh 4
+Argox: bash <(wget -qO- https://raw.githubusercontent.com/fscarmen/argox/main/argox.sh) -C
+SBA: bash <(wget -qO- https://raw.githubusercontent.com/fscarmen/sba/main/sba.sh) -C

@@ -1,0 +1,9 @@
+文件名：92-Media.Check.Place-4.3-原生流媒体检测.txt
+
+编号（原）：4.3
+名称：原生流媒体检测
+原始文件名：Media.Check.Place
+描述说明：原生流媒体检测脚本，适合基础测试。
+
+对应命令：
+bash <(curl -sL Media.Check.Place)

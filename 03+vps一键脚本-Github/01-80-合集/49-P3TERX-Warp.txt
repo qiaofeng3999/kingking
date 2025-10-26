@@ -1,0 +1,5 @@
+文件名：49-P3TERX-Warp.txt
+
+名称：P3TERX-Warp
+描述：Cloudflare WARP脚本，日常维护。
+命令：bash <(curl -fsSL git.io/warp.sh) menu

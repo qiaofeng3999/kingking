@@ -1,0 +1,9 @@
+文件名：93-IP.Check.Place-4.4-IP质量体检.txt
+
+编号（原）：4.4
+名称：IP质量体检
+原始文件名：IP.Check.Place
+描述说明：测试IP质量，包括延迟、丢包和归属地信息。
+
+对应命令：
+bash <(curl -sL IP.Check.Place)

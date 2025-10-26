@@ -1,0 +1,7 @@
+文件名：21_AutoTrace回程路由
+
+描述：
+测试回程路由。
+
+命令：
+wget -N --no-check-certificate https://raw.githubusercontent.com/Chennhaoo/Shell_Bash/master/AutoTrace.sh && chmod +x AutoTrace.sh && bash AutoTrace.sh

@@ -1,0 +1,5 @@
+文件名：36-jcnf常用脚本工具包.txt
+
+名称：jcnf常用脚本工具包
+描述：常用运维脚本集合。
+命令：wget -O jcnfbox.sh https://raw.githubusercontent.com/Netflixxp/jcnf-box/main/jcnfbox.sh && chmod +x jcnfbox.sh && clear && ./jcnfbox.sh

@@ -1,0 +1,5 @@
+文件名：44-beta.gs-NewReinstall.txt
+
+名称：beta.gs-NewReinstall
+描述：一键重装系统脚本。
+命令：wget --no-check-certificate -O NewReinstall.sh https://raw.githubusercontent.com/fcurrk/reinstall/master/NewReinstall.sh && chmod a+x NewReinstall.sh && bash NewReinstall.sh

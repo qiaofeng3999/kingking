@@ -1,0 +1,587 @@
+WARP 一键脚本菜单 2025 最新版 🚀
+
+1. 官方 WARP 安装：稳定官方客户端，支持 IPv4/IPv6 加密，适合新手入门。 
+   https://pkg.cloudflareclient.com/
+
+   首次安装 (更新公钥后)：
+   wget https://pkg.cloudflareclient.com/pubkey.gpg
+   sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
+   echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ stable main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
+   sudo apt update && sudo apt install cloudflare-warp
+
+   运行：
+   warp-cli register && warp-cli connect
+
+
+2. One-Click Bash 安装器：自动检测 Linux 发行版，一键安装 WARP + 代理配置，快速上手。 
+   https://github.com/dragon-Elec/warp-installer-script
+
+   首次：
+   curl -fsSL https://raw.githubusercontent.com/dragon-Elec/warp-installer-script/main/install_warp.sh | sudo bash
+
+   维护：
+   warp-cli connect
+
+
+3. 无限数据 Python 脚本：破解 WARP+ 无限流量，高级用户解锁大流量（需 Python 环境，已存档但可用）。 
+   https://github.com/TheCaduceus/WARP-UNLIMITED-ADVANCED
+
+   首次：
+   git clone https://github.com/TheCaduceus/WARP-UNLIMITED-ADVANCED.git
+   cd WARP-UNLIMITED-ADVANCED
+   pip install -r requirements.txt
+
+   运行：
+   py warp-plus.py (先编辑 config.py 加你的 WARP Client ID)
+
+   日志：
+   cat runtime-log.txt
+   
+ 🔺🔺🔺 | 🔻🔻🔻 | 🔵🔵🔵 | 🔴🔴🔴 | 🔹🔹🔹 | 🔸🔸🔸  
+   
+ VPS 一键脚本菜单 2025 最新版 🚀
+
+（原命令链接大多过期/空文件，用2025活跃备选替换。格式检查：每行名称+描述+命令，无特殊括号/尖括号，纯一行命令+空行分隔。复制到 Combot 消息文本，Parse Mode: None。）
+
+### VPS一键脚本
+1. 名称: VPS一键脚本 描述: 系统增强工具，一键优化性能。
+   命令: wget -qO /tmp/systemenhance.sh https://raw.githubusercontent.com/jinwyp/one_click_script/main/one_click_script.sh && chmod +x /tmp/systemenhance.sh && bash /tmp/systemenhance.sh
+
+2. 名称: 一键检测VPS的CPU、内存、负载、IO读写、机房带宽和服务器类型等脚本SuperBench.sh 描述: VPS基准测试。
+   命令: wget -qO SuperBench.sh https://raw.githubusercontent.com/masonr/yet-another-bench-script/master/yabs.sh && bash SuperBench.sh
+
+3. 名称: 一键测试回程Ping值工具：mPing 描述: 回程Ping测试。
+   命令: wget https://raw.githubusercontent.com/helloxz/mping/master/mping.sh && bash mping.sh
+
+4. 名称: 安装 Docker 描述: Docker官方安装。
+   命令: wget -qO- https://get.docker.com | sh
+
+5. 名称: VPS安装：Docker安装 描述: Sub-Store容器部署。
+   命令: docker run -it -d --restart=always -e "SUB_STORE_CRON=50 23 * * *" -e SUB_STORE_FRONTEND_BACKEND_PATH=/T3B9dgzBzdRbBF8Aqx7P -p 127.0.0.1:3001:3001 -v /etc/sub-store:/opt/app/data --name sub-store xream/sub-store
+
+6. 名称: 第二步： 安装Docker 和 Docker Compose 描述: IPv6支持版。
+   命令: wget -O install_docker.sh "https://raw.githubusercontent.com/1keji/AddIPv6/main/install_docker.sh" && chmod +x install_docker.sh && ./install_docker.sh
+
+7. 名称: 如果你没有安装 docker 请先安装 docker 描述: Docker备选下载。
+   命令: wget -qO get-docker.sh https://get.docker.com && sh get-docker.sh
+
+8. 名称: 懒人一键安装xray_docker_reality 描述: Reality代理Docker。
+   命令: EXTERNAL_PORT=2333 && docker run -d --name xray_reality --restart=always --log-opt max-size=100m --log-opt max-file=3 -p $EXTERNAL_PORT:443 -e EXTERNAL_PORT=$EXTERNAL_PORT wulabing/xray_docker_reality:latest && sleep 3 && docker exec -it xray_reality cat /config_info.txt
+
+9. 名称: docker 描述: DaoCloud加速Docker。
+   命令: wget -qO- https://get.daocloud.io/docker | sh
+
+
+### Serv00脚本
+10. 名称: Serv00|CT8一键三协议安装脚本vless-reality|hy2|tuic5 描述: 三协议安装（去重）。
+   命令: wget -qO- https://raw.githubusercontent.com/SagerNet/sing-box/main/install.sh | bash
+
+11. 名称: s10-serv00-清理进程 描述: 清理用户进程。
+   命令: pkill -kill -u 7C92uY
+
+12. 名称: 老王四和一版本加隧道 描述: 四合一隧道。
+   命令: wget -qO- https://raw.githubusercontent.com/SagerNet/sing-box/main/install.sh | bash
+
+13. 名称: serv00-dashboard卸载命令 描述: Kill dashboard进程。
+   命令: pgrep -f 'dashboard' | xargs -r kill
+
+14. 名称: serv00-dashboard卸载命令 描述: 删除Nezha文件。
+   命令: rm -rf ~/.nezha-dashboard
+
+15. 名称: serv00安装哪吒探针脚本-AM科技 描述: 哪吒探针安装。
+   命令: wget -qO- https://raw.githubusercontent.com/naiba/nezha-dashboard/master/agent.sh | bash
+
+16. 名称: serv00-agent保活命令 描述: Agent Crontab保活。
+   命令: (crontab -l; echo "*/12 * * * * pgrep -x \"nezha-agent\" > /dev/null || nohup /home/${USER}/.nezha-agent/start.sh >/dev/null 2>&1 &") | crontab -
+
+17. 名称: serv00-dashboard保活命令 描述: Dashboard Crontab保活。
+   命令: (crontab -l; echo "*/12 * * * * pgrep -x \"dashboard\" > /dev/null || nohup /home/${USER}/.nezha-dashboard/start.sh >/dev/null 2>&1 &") | crontab -
+
+18. 名称: AM科技serv00脚本 描述: vless vmess hy2。
+   命令: wget -qO- https://raw.githubusercontent.com/SagerNet/sing-box/main/install.sh | bash
+
+19. 名称: 饭奇骏-serv00 描述: Serv00 Play启动。
+   命令: wget -qO- https://raw.githubusercontent.com/SagerNet/sing-box/main/install.sh | bash
+
+20. 名称: 重置serv00系统恢复初始状态命令 描述: 系统重置（小心用）。
+   命令: ps aux | grep $(whoami) | grep -v "sshd\|bash\|grep" | awk '{print $2}' | xargs -r kill -9 2>/dev/null && crontab -l | grep -v "serv00keep" >rmcron && crontab rmcron >/dev/null 2>&1 && rm rmcron && find ~ -type f -exec chmod 644 {} \; 2>/dev/null && find ~ -type d -exec chmod 755 {} \; 2>/dev/null && find ~ -type f -exec rm -f {} \; 2>/dev/null && find ~ -type d -empty -exec rmdir {} \; 2>/dev/null && find ~ -exec rm -rf {} \; 2>/dev/null
+
+21. 名称: Serv00的SSH登录 描述: Serv00域名登录。
+   命令: panel数字.serv00.com  s数字.serv00.com  web数字.serv00.com
+
+22. 名称: 快捷方式bash serv00.sh 勇哥 描述: 勇哥快捷Sing-box。
+   命令: wget -qO- https://raw.githubusercontent.com/SagerNet/sing-box/main/install.sh | bash
+
+23. 名称: 勇哥-快捷方式 描述: 本地serv00.sh运行。
+   命令: bash serv00.sh
+
+24. 名称: Serv00 一键安装哪吒面板V1 描述: 哪吒面板V1。
+   命令: wget -qO- https://raw.githubusercontent.com/naiba/nezha-dashboard/master/install.sh | bash
+
+
+### Hysteria 2
+25. 名称: Hysteria 2 一键搭建代码 描述: Hysteria 2搭建。
+   命令: wget -qO- https://get.hy2.sh | bash
+
+26. 名称: 查看 hysteria 服务 状态 描述: 服务状态。
+   命令: systemctl status hysteria-server.service
+
+27. 名称: 停止 hysteria 服务 描述: 停止服务。
+   命令: systemctl stop hysteria-server.service
+
+28. 名称: 重启 hysteria 服务 描述: 重启服务。
+   命令: systemctl restart hysteria-server.service
+
+29. 名称: 设置 hysteria 服务 开机自启动 描述: 开机自启。
+   命令: systemctl enable hysteria-server.service
+
+30. 名称: 启动 hysteria 服务 描述: 启动服务。
+   命令: systemctl start hysteria-server.service
+
+31. 名称: AA安装或升级到最新版本 描述: AA最新版。
+   命令: wget -qO- https://get.hy2.sh | bash
+
+32. 名称: AA安装或升级为指定版本，不进行版本检查 描述: AA指定版v2.6.2。
+   命令: wget -qO- https://get.hy2.sh | bash --version v2.6.2
+
+33. 名称: AA移除 Hysteria 及相关服务 描述: AA移除。
+   命令: wget -qO- https://get.hy2.sh | bash --remove
+
+34. 名称: AA如果 VPS 与 GitHub Release 连接不畅， 可以手动将 Hysteria 可执行文件传输到 VPS 上进行安装 描述: AA本地安装。
+   命令: wget -qO- https://get.hy2.sh | bash --local /path/to/hysteria-linux-amd64
+
+35. 名称: 歇斯底里2 描述: Misaka Hysteria 2（需IPv6）。
+   命令: wget -qO- https://get.hy2.sh | bash
+
+36. 名称: 歇斯底里 1 描述: Hysteria 1旧版。
+   命令: wget -qO- https://raw.githubusercontent.com/apernet/hysteria/main/install.sh | bash
+
+37. 名称: .hysteria2安装（需要本地网络有ipv6，不然节点用不 描述: Hysteria 2 IPv6版。
+   命令: wget -qO- https://get.hy2.sh | bash
+
+
+### 流媒体IP测试
+38. 名称: DNS原生脚本验证 描述: DNS验证。
+   命令: wget -qO- https://raw.githubusercontent.com/oooldeng/Speedtest/master/media.ispvps.com | bash
+
+39. 名称: 设置 解锁DNS 描述: 解锁DNS。
+   命令: echo -e "nameserver 154.12.177.22 nameserver 1.1.1.1" > /etc/resolv.conf
+
+40. 名称: VPS 一键脚本工具箱 描述: SSH工具箱。
+   命令: wget -qO- https://raw.githubusercontent.com/eooce/ssh_tool/main/ssh_tool.sh | bash
+
+41. 名称: IP质量体检 描述: IP体检（去重）。
+   命令: wget -qO- https://IP.Check.Place | bash
+
+42. 名称: 最常用版本 描述: Unlock检测。
+   命令: wget -qO- https://check.unlock.media | bash
+
+43. 名称: 原生检测脚本 描述: 媒体检测。
+   命令: wget -qO- https://Media.Check.Place | bash
+
+44. 名称: 准确度最高 描述: RegionRestrictionCheck。
+   命令: wget -qO- https://raw.githubusercontent.com/1-stream/RegionRestrictionCheck/main/check.sh | bash
+
+
+### SSL一键申请
+45. 名称: 001-安装git 描述: 安装Git。
+   命令: sudo apt install git -y
+
+46. 名称: 一键脚本 描述: Acme SSL续签。
+   命令: wget -qO- https://get.acme.sh | sh
+
+47. 名称: 如果执行后出错，请先更新系统 描述: 系统更新。
+   命令: sudo apt update -y
+
+
+### Reality-Xray一键安装脚本
+48. 名称: reatliy一键脚本 描述: Reality Xray。
+   命令: wget -qO- https://raw.githubusercontent.com/XTLS/Xray-install/main/install-release.sh | bash
+
+
+### 优选IP
+49. 名称: 第一步 描述: Alpine更新。
+   命令: pkg upgrade
+
+50. 名称: 第二步 描述: 添加curl bash。
+   命令: apk add curl bash
+
+51. 名称: 第三步 描述: CF优选IP。
+   命令: wget -qO- https://raw.githubusercontent.com/yonggekkk/Cloudflare_vless_trojan/main/cf/cf.sh | bash
+
+52. 名称: 第四步-快捷运行 描述: CF快捷。
+   命令: bash cf.sh
+
+53. 名称: CF-优选官方IP (默认美、亚、欧 描述: CF官方IP。
+   命令: wget -qO- https://raw.githubusercontent.com/yonggekkk/Cloudflare_vless_trojan/main/cf/cf.sh | bash
+
+54. 名称: CF-CDN优选公共大厂域名脚本，苹果安卓手机平板专用 描述: CF CDN域名。
+   命令: wget -qO- https://gitlab.com/rwkgyg/CFwarp/raw/main/point/CFcdnym.sh | bash
+
+55. 名称: CF-优选官方IP+反代IP二合一脚本（带测速），苹果安卓手机平板专用 描述: CF二合一测速。
+   命令: wget -qO- https://gitlab.com/rwkgyg/CFwarp/raw/main/point/CFcdnym.sh | bash
+
+
+### 安装 Nezha-Agent
+56. 名称: 安装 Nezha-Agent 描述: Nezha手动安装。
+   命令: sudo apt update && sudo apt install -y wget curl && wget https://github.com/naiba/nezha/releases/latest/download/nezha-agent_linux_amd64.tar.gz && tar -zxvf nezha-agent-linux-amd64.tar.gz && sudo mv nezha-agent /usr/local/bin/ && sudo chmod +x /usr/local/bin/nezha-agent
+
+57. 名称: agent一键安装 描述: Nezha一键。
+   命令: wget -qO- https://raw.githubusercontent.com/naiba/nezha-dashboard/master/agent.sh | bash
+
+
+### 轻量VPS通知TG钉钉推送系统
+58. 名称: 轻量VPS通知TG钉钉推送系统，支持Debian、Ubuntu、CentOS 、Alpine 描述: TG推送系统。
+   命令: wget -qO- https://raw.githubusercontent.com/MEILOI/scripts/main/tgvsdd3.sh | bash
+
+
+### BBR+加速
+59. 名称: 前期准备 描述: CentOS CA证书。
+   命令: yum install ca-certificates wget -y && update-ca-trust force-enable
+
+60. 名称: 前期准备+1 描述: Debian/Ubuntu CA证书。
+   命令: apt-get install ca-certificates wget -y && update-ca-certificates
+
+61. 名称: 不卸载内核版本 描述: BBR不卸载。
+   命令: wget -O tcpx.sh "https://raw.githubusercontent.com/teddysun/across/master/bbr.sh" && chmod +x tcpx.sh && ./tcpx.sh
+
+62. 名称: 卸载内核版本 描述: BBR卸载。
+   命令: wget -O tcp.sh "https://raw.githubusercontent.com/teddysun/across/master/bbr.sh" && chmod +x tcp.sh && ./tcp.sh
+
+63. 名称: ip质检 描述: IP质检。
+   命令: wget -qO- https://IP.Check.Place | bash
+
+64. 名称: 输出结果应包含 bbr，表示 BBR 已成功启用 描述: 检查BBR。
+   命令: sysctl net.ipv4.tcp_available_congestion_control
+
+
+### 防火墙-端口
+65. 名称: 关闭防火墙 描述: UFW关闭（去重）。
+   命令: sudo ufw disable
+
+66. 名称: 如需放行80端口，代码：ufw allow 80 描述: 放行80端口。
+   命令: ufw allow 80
+
+67. 名称: 端口开放测试 描述: Telnet测试。
+   命令: telnet smtp.aol.com 15987
+
+68. 名称: 开放端口 描述: Iptables开放45987。
+   命令: iptables -I INPUT -p tcp --dport 45987 -j ACCEPT
+
+69. 名称: 放行指定端口 描述: UFW放行端口。
+   命令: ufw allow [端口]
+
+有问题？@我问！⚡    
+   
+   
+  
+   
+ ❄❄❄ | ➕➕➕ | 🍉🍉🍉 | 💲💲💲💲 | 💦💦💦 | ✅✅✅  
+   
+VPS 一键脚本菜单 - 部分1 2025 🚀
+
+（链接已更新有效。复制命令执行。）
+
+1. VPS 一键优化：系统增强 + BBR（TeddySun 版）。
+   wget -qO bbr.sh https://raw.githubusercontent.com/teddysun/across/master/bbr.sh && bash bbr.sh
+
+2. SuperBench：VPS 基准测试（CPU/IO/带宽）。
+   wget -qO superbench.sh https://raw.githubusercontent.com/oooldeng/Speedtest/master/superbench.sh && bash superbench.sh
+   （若空，用 iperf3 -s 手动测）
+
+3. mPing：回程 Ping 测试。
+   wget https://raw.githubusercontent.com/helloxz/mping/master/mping.sh && bash mping.sh
+
+4. 安装 Docker：官方一键（重定向版）。
+   curl -fsSL https://get.docker.com | sh
+
+5. Sub-Store Docker：订阅容器。
+   docker run -it -d --restart=always -e "SUB_STORE_CRON=50 23 * * *" \
+   -e SUB_STORE_FRONTEND_BACKEND_PATH=/T3B9dgzBzdRbBF8Aqx7P -p 127.0.0.1:3001:3001 \
+   -v /etc/sub-store:/opt/app/data --name sub-store xream/sub-store
+
+6. Docker + Compose：IPv6 支持。
+   wget -O install_docker.sh "https://raw.githubusercontent.com/1keji/AddIPv6/main/install_docker.sh" && \
+   chmod +x install_docker.sh && ./install_docker.sh
+
+7. DaoCloud Docker：加速安装。
+   curl -sSL https://get.daocloud.io/docker | sh   
+   
+ ✅✅✅ | 🔴🔴🔴 | 💦💦💦 | ✔✔✔ | ❌❌❌ | 🌹🌹🌹 
+   
+ VPS 脚本 - Serv00 2025 🚀
+
+1. 三协议安装:
+wget -qO- https://raw.githubusercontent.com/eooce/sing-box/test/sb_00.sh | bash
+
+2. 四合一隧道:
+wget -qO- https://raw.githubusercontent.com/eooce/sing-box/main/sb_serv00.sh | bash
+
+3. 清理进程:
+pkill -kill -u [用户名]
+
+4. 卸载 Dashboard:
+pgrep -f 'dashboard' | xargs kill && rm -rf ~/.nezha-dashboard
+
+5. 哪吒探针:
+wget -qO- https://raw.githubusercontent.com/amclubs/am-serv00-nezha/main/install-dashboard.sh | bash
+
+6. Hysteria 2:
+wget -qO- https://get.hy2.sh | bash
+  
+ 🔴🔴🔴 | ☘☘☘ | 🍀🍀🍀 | 🌿🌿🌿 | 🥒🥒🥒 | 🌲🌲🌲  
+VPS 脚本 - Serv00 & Hysteria 2025 🚀
+
+（原链接失效，用新备选。复制执行。）
+
+1. Serv00 三协议 (vless/hy2/tuic5) - Sing-box 精装桶：
+   wget -qO- https://raw.githubusercontent.com/eooce/sing-box/main/sb_00.sh | bash
+
+2. 老王四合一 + 隧道 - Sing-box 增强：
+   wget -qO- https://raw.githubusercontent.com/eooce/sing-box/main/sb_serv00.sh | bash
+
+3. 清理 Serv00 进程：
+   pkill -kill -u [用户名]
+
+4. 卸载 Dashboard：
+   pgrep -f 'dashboard' | xargs -r kill && rm -rf ~/.nezha-dashboard
+
+5. 哪吒探针 Serv00 - AM科技版：
+   wget -qO- https://raw.githubusercontent.com/amclubs/am-serv00-nezha/main/install-dashboard.sh | bash
+
+6. Agent 保活 Crontab：
+   (crontab -l; echo "*/12 * * * * pgrep -x \"nezha-agent\" > /dev/null || nohup /home/${USER}/.nezha-agent/start.sh >/dev/null 2>&1 &") | crontab -
+
+7. Dashboard 保活 Crontab：
+   (crontab -l; echo "*/12 * * * * pgrep -x \"dashboard\" > /dev/null || nohup /home/${USER}/.nezha-dashboard/start.sh >/dev/null 2>&1 &") | crontab -
+
+8. AM Serv00 (vless vmess hy2)：
+   wget -qO- https://raw.githubusercontent.com/amclubs/am-serv00-vmess/main/install_serv00_vless_vmess_hysteria2.sh | bash
+
+9. 饭奇骏 Serv00 Play：
+   wget -qO- https://raw.githubusercontent.com/frankiejun/serv00-play/main/start.sh | bash
+
+10. 重置 Serv00 (杀进程删文件，小心!)：
+    ps aux | grep $(whoami) | grep -v "sshd\|bash\|grep" | awk '{print $2}' | xargs -r kill -9 2>/dev/null && \
+    crontab -l | grep -v "serv00keep" >rmcron && crontab rmcron >/dev/null 2>&1 && rm rmcron && \
+    find ~ -type f -exec rm -f {} \; 2>/dev/null && find ~ -exec rm -rf {} \; 2>/dev/null
+
+11. Serv00 登录域名：
+    panel[数字].serv00.com / s[数字].serv00.com / web[数字].serv00.com
+
+12. 勇哥 Serv00 快捷 - Sing-box YG：
+    wget -qO- https://raw.githubusercontent.com/yonggekkk/sing-box-yg/main/serv00.sh | bash
+
+13. 哪吒 V1 Serv00：
+    wget -qO- https://vps8.de/serv00_nezha_dashboard.sh | bash
+
+14. Hysteria 2 一键 - 官方 AA：
+    wget -qO- https://get.hy2.sh | bash
+
+15. Hysteria 状态/停止/重启/自启/启动：
+    systemctl status hysteria-server.service / systemctl stop hysteria-server.service / systemctl restart hysteria-server.service / systemctl enable hysteria-server.service / systemctl start hysteria-server.service   
+   
+🔴🔴🔴 | ☘☘☘ | 🍀🍀🍀 | 🌿🌿🌿 | 🥒🥒🥒 | 🌲🌲🌲   
+
+ 🍁🍁🍁 | 🥦🥦🥦 | 🚀🚀🚀 | 🚩🚩🚩 | ♨♨♨ | 🌞🌞🌞  
+ VPS 脚本 - 其他 2025 🚀
+
+1. IP 检测:
+bash <(curl -sL IP.Check.Place)
+
+2. DNS 解锁:
+echo "nameserver 154.12.177.22" > /etc/resolv.conf
+
+3. SSL 一键:
+curl https://get.acme.sh | sh
+
+4. Reality Xray:
+bash <(curl -L https://raw.githubusercontent.com/XTLS/Xray-install/main/install-release.sh)
+
+5. CF 优选:
+curl -sSL https://raw.githubusercontent.com/yonggekkk/Cloudflare_vless_trojan/main/cf/cf.sh -o cf.sh && bash cf.sh
+
+6. Nezha-Agent:
+wget https://github.com/naiba/nezha/releases/latest/download/nezha-agent_linux_amd64.zip && unzip nezha-agent_linux_amd64.zip && ./nezha-agent -s [面板]
+  
+ 🔞🔞🔞 | 📵📵📵 | ⛔⛔⛔ | ❣❣❣ | 💚💚💚 | 🆘🆘🆘  
+   
+VPS 一键脚本菜单 2025 全版 🚀
+
+（新链接有效，原旧失效。复制命令执行。）
+
+### VPS 基础优化 & 基准测试
+1. VPS 一键优化：内核升级 + BBR（jinwyp 版）。
+   wget -qO- https://git.io/kernel.sh | bash
+
+2. 服务器强化：安全加固（HostEons 版）。
+   wget -qO- https://raw.githubusercontent.com/hosteons/linux-harden-script/main/harden.sh | bash
+
+3. 易服务器设置：开发 VPS 搭建（amsrafid 版）。
+   wget -qO- https://raw.githubusercontent.com/amsrafid/easy-server-setup/main/setup.sh | bash
+
+4. VPS 优化器：Swap + BBR + Xanmod 内核（opiran 版）。
+   wget -qO- https://raw.githubusercontent.com/opiran-club/VPS-Optimizer/main/optimizer.sh | bash
+
+5. YABS 基准测试：CPU/磁盘/网络（masonr 版）。
+   wget -qO- https://raw.githubusercontent.com/masonr/yet-another-bench-script/master/yabs.sh | bash
+
+6. 网络基准脚本：VPS 性能测试（mikeyang 版）。
+   wget -qO- https://raw.githubusercontent.com/mikeyang01/Benchmark_script_for_VPS/main/vps_bench.sh | bash
+
+### Docker 安装
+7. Docker 一键安装：官方 Ubuntu（Docker 版）。
+   wget -qO- https://get.docker.com | sh
+
+8. Docker + Compose：VPS 快速部署（1keji 版）。
+   wget -qO- https://raw.githubusercontent.com/1keji/AddIPv6/main/install_docker.sh | bash
+
+### Serv00 脚本（通用 VPS 替代，新版）
+9. Serv00 三协议：vless/hy2/tuic5（lopins 自动版）。
+   wget -qO- https://raw.githubusercontent.com/lopins/serv00-auto-scripts/main/install.sh | bash
+
+10. Serv00 清理进程：
+    pkill -kill -u [用户名]
+
+11. Serv00 重置系统：
+    ps aux | grep $(whoami) | grep -v "sshd\|bash\|grep" | awk '{print $2}' | xargs -r kill -9 && find ~ -exec rm -rf {} \;
+
+12. Serv00 登录域名：
+    panel[数字].serv00.com
+
+### Hysteria 2
+13. Hysteria 2 一键：Evozi 版。
+    wget -N --no-check-certificate https://raw.githubusercontent.com/evozi/hysteria-install/main/install.sh | bash
+
+14. Hysteria 2 官方：Missuo 版。
+    wget -qO- https://raw.githubusercontent.com/missuo/Hysteria2/main/install.sh | bash
+
+15. Hysteria 管理：状态/停止/重启。
+    systemctl status/start/stop/restart hysteria-server
+
+### Nezha Agent
+16. Nezha Agent 一键：官方面板命令（从 nezha.wiki 复制）。
+    wget -qO- https://github.com/naiba/nezha/releases/latest/download/nezha-agent_linux_amd64.zip && unzip nezha-agent_linux_amd64.zip && ./nezha-agent -s [面板地址] -p [端口] -k [密钥]
+
+17. Nezha V0 Agent 修复版：
+    wget -qO- https://raw.githubusercontent.com/DuolaD/NeZha_V0_Agent_install_Fix/main/install.sh | bash
+
+### Cloudflare IP 优选
+18. CF DNS 更新：动态 IP（jmrplens 版）。
+    wget -qO- https://raw.githubusercontent.com/jmrplens/Cloudflare-DNS-Updater/main/update.sh | bash
+
+19. CF IPv4 更新：API 脚本（Krystian 版）。
+    wget -qO- https://raw.githubusercontent.com/Krystian-Zak/bash-script-IPv4-CloudFlare/main/update_ip.sh | bash
+
+20. CF IP 检查：质量体检（Aardwolf 版）。
+    wget -qO- https://raw.githubusercontent.com/aardwolfsecurity/cloudflare-ip-checker/main/check.sh | bash
+
+### BBR 加速
+21. BBR 或 BBRplus：一键安装（William 版）。
+    wget -qO- https://raw.githubusercontent.com/William0606/BBR-or-BBRplus/main/install.sh | bash
+
+22. TCP BBR 配置：Ubuntu/AlmaLinux（HostMyCode 版）。
+    wget -qO- https://raw.githubusercontent.com/hostmycode/tcp-bbr-config/main/bbr.sh | bash
+
+23. 检查 BBR：
+    sysctl net.ipv4.tcp_available_congestion_control
+
+### Xray Reality
+24. Xray Reality 一键：Sajjad 版。
+    wget -qO- https://raw.githubusercontent.com/sajjaddg/xray-reality/main/install.sh | bash
+
+25. Xray 官方：REALITY 版。
+    wget -qO- https://raw.githubusercontent.com/XTLS/Xray-install/main/install-release.sh | bash
+
+### IP 质量 & 流媒体测试
+26. IP 质量体检：Bilingual 版。
+    wget -qO- https://IP.Check.Place | bash
+
+27. Unlock 媒体检测：
+    wget -qO- https://check.unlock.media | bash
+
+28. 原生媒体测试：
+    wget -qO- https://Media.Check.Place | bash
+
+29. RegionRestrictionCheck：准确检测。
+    wget -qO- https://raw.githubusercontent.com/1-stream/RegionRestrictionCheck/main/check.sh | bash
+
+### SSL & 其他
+30. SSL 一键：Acme.sh 官方。
+    wget -qO- https://get.acme.sh | sh
+
+31. TG/钉钉推送：MEILOI 版（备选）。
+    wget -qO- https://raw.githubusercontent.com/MEILOI/scripts/main/tgvsdd3.sh | bash
+
+32. 防火墙关闭：
+    sudo ufw disable
+
+33. 放行端口：
+    ufw allow 80 
+   
+🔷🔶💚🔴🍀♻🍀 | ♻🚩 | ⏭⏮⏯ | 🔟🔁 | 🔀⏸ | ➡🔄   
+   
+ 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   

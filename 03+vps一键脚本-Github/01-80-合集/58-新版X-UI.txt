@@ -1,0 +1,7 @@
+文件名：58-新版X-UI.txt
+
+名称：新版X-UI
+描述：X-UI面板安装脚本。
+命令：bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh)
+或
+bash <(wget -qO- https://raw.githubusercontent.com/sing-web/x-ui/main/install_CN.sh)

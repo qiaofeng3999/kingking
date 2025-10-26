@@ -1,0 +1,5 @@
+文件名：57-Mack-a-8合1.txt
+
+名称：Mack-a-8合1
+描述：多功能科学工具安装脚本。
+命令：wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh

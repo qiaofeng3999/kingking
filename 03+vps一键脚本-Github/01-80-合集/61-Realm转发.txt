@@ -1,0 +1,5 @@
+文件名：61-Realm转发.txt
+
+名称：Realm转发
+描述：在中转鸡上添加转发功能。
+命令：wget https://raw.githubusercontent.com/Jaydooooooo/Port-forwarding/main/RealmOneKey.sh && chmod +x RealmOneKey.sh && ./RealmOneKey.sh

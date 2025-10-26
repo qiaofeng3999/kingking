@@ -1,0 +1,9 @@
+文件名：98-install.sh-6.1-回程测试（小白版）.txt
+
+编号（原）：6.1
+名称：回程测试（小白版）
+原始文件名：install.sh
+描述说明：简单直接显示回程路由，适合新手使用。
+
+对应命令：
+curl https://raw.githubusercontent.com/ludashi2020/backtrace/main/install.sh -sSf | sh

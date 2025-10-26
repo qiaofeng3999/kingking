@@ -1,0 +1,10 @@
+文件名：122-warp.sh-10.2-P3TERX WARP.txt
+
+编号（原）：10.2
+名称：P3TERX WARP
+原始文件名：warp.sh
+描述说明：简洁的WARP安装脚本，支持IPv4/IPv6，优化网络连接。
+
+对应命令：
+bash <(curl -fsSL git.io/warp.sh) menu
+bash warp.sh

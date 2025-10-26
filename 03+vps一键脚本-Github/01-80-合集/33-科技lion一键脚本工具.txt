@@ -1,0 +1,5 @@
+文件名：33-科技lion一键脚本工具.txt
+
+名称：科技lion一键脚本工具
+描述：综合运维工具。
+命令：curl -sS -O https://raw.githubusercontent.com/kejilion/sh/main/kejilion.sh && chmod +x kejilion.sh && ./kejilion.sh

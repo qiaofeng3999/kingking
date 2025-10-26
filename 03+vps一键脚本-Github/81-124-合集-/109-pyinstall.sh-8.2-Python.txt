@@ -1,0 +1,9 @@
+文件名：109-pyinstall.sh-8.2-Python.txt
+
+编号（原）：8.2
+名称：Python
+原始文件名：pyinstall.sh
+描述说明：安装Python环境，适合开发和运行Python应用。
+
+对应命令：
+curl -O https://raw.githubusercontent.com/lx969788249/lxspacepy/master/pyinstall.sh && chmod +x pyinstall.sh && ./pyinstall.sh

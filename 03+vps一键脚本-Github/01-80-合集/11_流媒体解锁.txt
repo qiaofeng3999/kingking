@@ -1,0 +1,9 @@
+文件名：11_流媒体解锁
+
+描述：
+测试流媒体解锁状态。
+
+命令：
+bash <(curl -L -s media.ispvps.com)
+bash <(curl -L -s check.unlock.media)
+bash <(curl -Ls unlock.icmp.ing/scripts/test.sh)

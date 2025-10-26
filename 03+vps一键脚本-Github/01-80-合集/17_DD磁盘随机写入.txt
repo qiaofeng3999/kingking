@@ -1,0 +1,7 @@
+文件名：17_DD磁盘随机写入
+
+描述：
+测试磁盘随机写入性能（5G文件）。
+
+命令：
+dd if=/dev/urandom of=5gb bs=1M count=5120

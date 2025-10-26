@@ -1,0 +1,9 @@
+文件名：91-check.unlock.media-4.2-流媒体检测（常用版）.txt
+
+编号（原）：4.2
+名称：流媒体检测（常用版）
+原始文件名：check.unlock.media
+描述说明：常用流媒体解锁测试脚本，简单快速。
+
+对应命令：
+bash <(curl -L -s check.unlock.media)

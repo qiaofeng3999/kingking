@@ -1,0 +1,9 @@
+文件名：89-gb5.sh-3.1-Geekbench 5.txt
+
+编号（原）：3.1
+名称：Geekbench 5
+原始文件名：gb5.sh
+描述说明：专门测试服务器CPU性能，适合评估计算能力。
+
+对应命令：
+bash <(curl -sL bash.icu/gb5)

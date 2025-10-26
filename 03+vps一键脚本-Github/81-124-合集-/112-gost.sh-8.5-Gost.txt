@@ -1,0 +1,9 @@
+文件名：112-gost.sh-8.5-Gost.txt
+
+编号（原）：8.5
+名称：Gost
+原始文件名：gost.sh
+描述说明：安装Gost网络代理工具，支持多种代理协议。
+
+对应命令：
+wget --no-check-certificate -O gost.sh https://raw.githubusercontent.com/qqrrooty/EZgost/main/gost.sh && chmod +x gost.sh && ./gost.sh

@@ -1,0 +1,7 @@
+文件名：07_SuperBench.sh
+
+描述：
+基于bench.sh，新增独立服务器通电时间、虚拟化架构、TCP拥塞控制等测试。
+
+命令：
+wget -qO- --no-check-certificate https://raw.githubusercontent.com/oooldking/script/master/superbench.sh | bash

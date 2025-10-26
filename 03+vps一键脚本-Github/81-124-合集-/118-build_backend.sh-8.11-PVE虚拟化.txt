@@ -1,0 +1,9 @@
+文件名：118-build_backend.sh-8.11-PVE虚拟化.txt
+
+编号（原）：8.11
+名称：PVE虚拟化
+原始文件名：build_backend.sh
+描述说明：安装Proxmox VE虚拟化平台，适合虚拟化环境部署。
+
+对应命令：
+bash <(wget -qO- --no-check-certificate https://raw.githubusercontent.com/oneclickvirt/pve/main/scripts/build_backend.sh)

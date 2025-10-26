@@ -1,0 +1,9 @@
+文件名：108-docker.sh-8.1-Docker.txt
+
+编号（原）：8.1
+名称：Docker
+原始文件名：docker.sh
+描述说明：一键安装Docker容器环境，适合部署容器化应用。
+
+对应命令：
+curl -sSL https://get.daocloud.io/docker | sh

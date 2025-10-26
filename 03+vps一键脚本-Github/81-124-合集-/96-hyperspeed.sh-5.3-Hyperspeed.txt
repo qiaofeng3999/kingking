@@ -1,0 +1,9 @@
+文件名：96-hyperspeed.sh-5.3-Hyperspeed.txt
+
+编号（原）：5.3
+名称：Hyperspeed
+原始文件名：hyperspeed.sh
+描述说明：高性能网络测速，适合快速评估带宽。
+
+对应命令：
+bash <(curl -Lso- https://bench.im/hyperspeed)

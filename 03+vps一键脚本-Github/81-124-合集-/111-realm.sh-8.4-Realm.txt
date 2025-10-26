@@ -1,0 +1,9 @@
+文件名：111-realm.sh-8.4-Realm.txt
+
+编号（原）：8.4
+名称：Realm
+原始文件名：realm.sh
+描述说明：安装Realm网络转发工具，支持多种协议。
+
+对应命令：
+bash <(curl -L https://raw.githubusercontent.com/zhouh047/realm-oneclick-install/main/realm.sh) -i

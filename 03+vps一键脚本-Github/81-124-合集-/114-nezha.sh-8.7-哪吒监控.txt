@@ -1,0 +1,9 @@
+文件名：114-nezha.sh-8.7-哪吒监控.txt
+
+编号（原）：8.7
+名称：哪吒监控
+原始文件名：nezha.sh
+描述说明：安装哪吒监控系统，实时监控服务器状态。
+
+对应命令：
+curl -L https://raw.githubusercontent.com/naiba/nezha/master/script/install.sh -o nezha.sh && chmod +x nezha.sh && sudo ./nezha.sh

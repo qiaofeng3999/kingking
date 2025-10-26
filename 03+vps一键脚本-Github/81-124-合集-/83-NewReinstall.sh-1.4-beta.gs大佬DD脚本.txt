@@ -1,0 +1,9 @@
+文件名：83-NewReinstall.sh-1.4-beta.gs大佬DD脚本.txt
+
+编号（原）：1.4
+名称：beta.gs大佬DD脚本
+原始文件名：NewReinstall.sh
+描述说明：通用Linux系统重装脚本，适合快速部署，简单易用。
+
+对应命令：
+wget --no-check-certificate -O NewReinstall.sh https://raw.githubusercontent.com/fcurrk/reinstall/master/NewReinstall.sh && chmod a+x NewReinstall.sh && bash NewReinstall.sh

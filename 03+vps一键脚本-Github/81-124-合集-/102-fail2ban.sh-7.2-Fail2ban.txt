@@ -1,0 +1,9 @@
+文件名：102-fail2ban.sh-7.2-Fail2ban.txt
+
+编号（原）：7.2
+名称：Fail2ban
+原始文件名：fail2ban.sh
+描述说明：安装Fail2ban，防止暴力破解，增强服务器安全。
+
+对应命令：
+wget --no-check-certificate https://raw.githubusercontent.com/FunctionClub/Fail2ban/master/fail2ban.sh && bash fail2ban.sh 2>&1 | tee fail2ban.log

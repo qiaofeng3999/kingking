@@ -1,0 +1,9 @@
+文件名：95-taier.sh-5.2-Taier.txt
+
+编号（原）：5.2
+名称：Taier
+原始文件名：taier.sh
+描述说明：快速网络测速脚本，测试服务器带宽性能。
+
+对应命令：
+bash <(curl -sL res.yserver.ink/taier.sh)

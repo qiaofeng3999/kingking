@@ -1,0 +1,5 @@
+文件名：56-勇哥-Sing-box.txt
+
+名称：勇哥-Sing-box
+描述：Sing-box安装脚本。
+命令：bash <(curl -Ls https://gitlab.com/rwkgyg/sing-box-yg/raw/main/sb.sh)

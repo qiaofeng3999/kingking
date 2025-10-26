@@ -1,0 +1,5 @@
+文件名：43-beta.gs-DD脚本.txt
+
+名称：beta.gs-DD脚本
+描述：一键重装系统，默认为Debian 12。
+命令：bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/MoeClub/Note/master/InstallNET.sh') -d 12 -v 64 -p 密码 -port 端口 -a -firmware

@@ -1,0 +1,5 @@
+文件名：40-VPS-ToolBox.txt
+
+名称：VPS-ToolBox
+描述：VPS综合运维工具箱。
+命令：bash <(curl -Lso- https://sh.vps.dance/toolbox.sh)

@@ -1,0 +1,7 @@
+文件名：05_UnixBench.sh
+
+描述：
+测试系统调用、读写、进程、图形化测试、2D/3D、管道、运算、C库等基准性能。
+
+命令：
+wget --no-check-certificate https://github.com/teddysun/across/raw/master/unixbench.sh && chmod +x unixbench.sh && ./unixbench.sh

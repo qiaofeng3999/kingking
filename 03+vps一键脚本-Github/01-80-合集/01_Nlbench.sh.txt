@@ -1,0 +1,7 @@
+文件名：01_Nlbench.sh
+
+描述：
+主机聚合测评脚本，包含Yabs、融合怪、IP质量、流媒体解锁、三网测速、iperf3、回程路由等，保存结果为MarkDown文件。
+
+命令：
+wget -O Nlbench.sh https://raw.githubusercontent.com/everett7623/nodeloc_vps_test/main/Nlbench.sh && chmod +x Nlbench.sh && ./Nlbench.sh

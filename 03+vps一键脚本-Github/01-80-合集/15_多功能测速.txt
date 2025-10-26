@@ -1,0 +1,7 @@
+文件名：15_多功能测速
+
+描述：
+支持三网、多线程、单线程测速。
+
+命令：
+bash <(curl -sL bash.icu/speedtest)

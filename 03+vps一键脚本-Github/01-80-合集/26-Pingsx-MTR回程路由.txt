@@ -1,0 +1,5 @@
+文件名：26-Pingsx-MTR回程路由.txt
+
+名称：Pingsx-MTR回程路由
+描述：在线MTR回程路由测试。
+命令：https://ping.sx/mtr

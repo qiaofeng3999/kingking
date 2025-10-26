@@ -1,0 +1,7 @@
+文件名：22_BestTrace回程路由
+
+描述：
+一键测试北上广三网回程路由。
+
+命令：
+wget -qO- git.io/besttrace | bash

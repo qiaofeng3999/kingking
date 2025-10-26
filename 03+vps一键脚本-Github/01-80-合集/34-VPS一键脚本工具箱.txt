@@ -1,0 +1,5 @@
+文件名：34-VPS一键脚本工具箱.txt
+
+名称：VPS一键脚本工具箱
+描述：VPS运维工具集合。
+命令：curl -fsSL https://raw.githubusercontent.com/eooce/ssh_tool/main/ssh_tool.sh -o ssh_tool.sh && chmod +x ssh_tool.sh && ./ssh_tool.sh

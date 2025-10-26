@@ -1,0 +1,9 @@
+文件名：100-testrace.sh-6.3-回程测试（testrace）.txt
+
+编号（原）：6.3
+名称：回程测试（testrace）
+原始文件名：testrace.sh
+描述说明：另一种回程测试脚本，详细分析路由路径。
+
+对应命令：
+wget https://ghproxy.com/https://raw.githubusercontent.com/vpsxb/testrace/main/testrace.sh -O testrace.sh && bash testrace.sh

@@ -1,0 +1,7 @@
+文件名：19_HTTP客户端下载
+
+描述：
+HTTP单线程下载测试（客户端，需替换yourip）。
+
+命令：
+wget http://yourip:8000/5gb

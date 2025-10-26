@@ -1,0 +1,8 @@
+文件名：03_融合怪GO版本
+
+描述：
+GO重构版本，支持Linux/FreeBSD/MacOS，测试VPS综合性能。
+
+命令：
+curl -L https://raw.githubusercontent.com/oneclickvirt/ecs/master/goecs.sh -o goecs.sh && chmod +x goecs.sh && bash goecs.sh env && bash goecs.sh install && goecs
+curl -L https://cdn.spiritlhl.net/https://raw.githubusercontent.com/oneclickvirt/ecs/master/goecs.sh -o goecs.sh && chmod +x goecs.sh && bash goecs.sh env && bash goecs.sh install && goecs

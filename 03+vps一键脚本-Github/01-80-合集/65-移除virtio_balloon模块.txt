@@ -1,0 +1,5 @@
+文件名：65-移除virtio_balloon模块.txt
+
+名称：移除virtio_balloon模块
+描述：移除virtio_balloon模块以优化VPS性能。
+命令：rmmod virtio_balloon

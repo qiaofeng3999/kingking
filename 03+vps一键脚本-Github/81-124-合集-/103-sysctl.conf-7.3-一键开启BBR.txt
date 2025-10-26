@@ -1,0 +1,9 @@
+文件名：103-sysctl.conf-7.3-一键开启BBR.txt
+
+编号（原）：7.3
+名称：一键开启BBR
+原始文件名：sysctl.conf
+描述说明：启用BBR拥塞控制算法，优化TCP性能，适用于Debian/Ubuntu。
+
+对应命令：
+echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf && echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf && sysctl -p && sysctl net.ipv4.tcp_available_congestion_control && lsmod | grep bbr

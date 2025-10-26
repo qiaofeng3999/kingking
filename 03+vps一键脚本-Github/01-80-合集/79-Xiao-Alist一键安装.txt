@@ -1,0 +1,5 @@
+文件名：79-Xiao-Alist一键安装.txt
+
+名称：Xiao-Alist一键安装
+描述：安装Xiao Alist文件管理平台。
+命令：bash -c "$(curl --insecure -fsSL https://ddsrem.com/xiaoya_install.sh)"

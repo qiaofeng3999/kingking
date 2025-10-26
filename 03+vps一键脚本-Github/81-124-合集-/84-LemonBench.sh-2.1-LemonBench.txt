@@ -1,0 +1,9 @@
+文件名：84-LemonBench.sh-2.1-LemonBench.txt
+
+编号（原）：2.1
+名称：LemonBench
+原始文件名：LemonBench.sh
+描述说明：快速综合测试服务器性能，包括CPU、内存、磁盘和网络速度。
+
+对应命令：
+wget -qO- https://raw.githubusercontent.com/LemonBench/LemonBench/main/LemonBench.sh | bash -s -- --fast

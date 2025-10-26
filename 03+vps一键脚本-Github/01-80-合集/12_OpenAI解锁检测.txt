@@ -1,0 +1,7 @@
+文件名：12_OpenAI解锁检测
+
+描述：
+测试OpenAI解锁状态。
+
+命令：
+bash <(curl -Ls https://github.com/ludashi2020/OpenAI-Checker/raw/main/openai.sh)

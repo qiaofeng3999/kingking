@@ -1,0 +1,5 @@
+文件名：64-超售测试脚本.txt
+
+名称：超售测试脚本
+描述：测试VPS超售情况。
+命令：wget --no-check-certificate -O memoryCheck.sh https://raw.githubusercontent.com/uselibrary/memoryCheck/main/memoryCheck.sh && chmod +x memoryCheck.sh && bash memoryCheck.sh

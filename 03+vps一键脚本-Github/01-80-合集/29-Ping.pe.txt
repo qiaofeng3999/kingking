@@ -1,0 +1,5 @@
+文件名：29-Ping.pe.txt
+
+名称：Ping.pe
+描述：全球延迟和丢包测试。
+命令：https://ping.pe

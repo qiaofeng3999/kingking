@@ -1,0 +1,10 @@
+文件名：121-menu.sh-10.1-FSCARMEN WARP.txt
+
+编号（原）：10.1
+名称：FSCARMEN WARP
+原始文件名：menu.sh
+描述说明：安装和配置WARP，支持IPv4/IPv6，部分解锁流媒体。
+
+对应命令：
+wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh
+warp

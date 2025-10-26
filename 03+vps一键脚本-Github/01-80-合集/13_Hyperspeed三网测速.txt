@@ -1,0 +1,7 @@
+文件名：13_Hyperspeed三网测速
+
+描述：
+测试三网带宽。
+
+命令：
+bash <(curl -Lso- https://bench.im/hyperspeed)

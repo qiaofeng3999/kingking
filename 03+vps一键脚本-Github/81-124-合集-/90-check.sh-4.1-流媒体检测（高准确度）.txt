@@ -1,0 +1,9 @@
+文件名：90-check.sh-4.1-流媒体检测（高准确度）.txt
+
+编号（原）：4.1
+名称：流媒体检测（高准确度）
+原始文件名：check.sh
+描述说明：测试流媒体解锁情况，准确度最高，适合详细检测。
+
+对应命令：
+bash <(curl -L -s https://github.com/1-stream/RegionRestrictionCheck/raw/main/check.sh)

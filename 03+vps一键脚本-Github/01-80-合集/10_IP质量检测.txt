@@ -1,0 +1,8 @@
+文件名：10_IP质量检测
+
+描述：
+测试IP质量。
+
+命令：
+bash <(curl -Ls IP.Check.Place)
+bash <(wget -qO- bash.spiritlhl.net/ecs-ipcheck)

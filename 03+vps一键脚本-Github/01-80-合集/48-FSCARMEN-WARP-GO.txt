@@ -1,0 +1,5 @@
+文件名：48-FSCARMEN-WARP-GO.txt
+
+名称：FSCARMEN-WARP-GO
+描述：Cloudflare WARP-GO脚本，日常维护。
+命令：wget -N https://raw.githubusercontent.com/fscarmen/warp/main/warp-go.sh && bash warp-go.sh

@@ -1,0 +1,5 @@
+文件名：66-内存填充测试.txt
+
+名称：内存填充测试
+描述：检测VPS真实可分配内存，适用于超售检测。
+命令：apt-get update && apt-get install wget build-essential -y && wget https://raw.githubusercontent.com/FunctionClub/Memtester/master/memtester.cpp && gcc -l stdc++ memtester.cpp && ./a.out

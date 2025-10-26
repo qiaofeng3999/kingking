@@ -1,0 +1,9 @@
+文件名：110-iperf3-8.3-iperf3.txt
+
+编号（原）：8.3
+名称：iperf3
+原始文件名：iperf3
+描述说明：安装iperf3，用于网络性能测试。
+
+对应命令：
+apt install iperf3

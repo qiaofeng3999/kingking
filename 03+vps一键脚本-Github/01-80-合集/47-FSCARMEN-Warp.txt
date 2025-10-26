@@ -1,0 +1,5 @@
+文件名：47-FSCARMEN-Warp.txt
+
+名称：FSCARMEN-Warp
+描述：Cloudflare WARP脚本，日常维护。
+命令：wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh

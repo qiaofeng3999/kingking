@@ -1,0 +1,9 @@
+文件名：106-tools.sh-7.6-TCP窗口调优.txt
+
+编号（原）：7.6
+名称：TCP窗口调优
+原始文件名：tools.sh
+描述说明：优化TCP窗口参数，提升网络性能。
+
+对应命令：
+wget http://sh.nekoneko.cloud/tools.sh -O tools.sh && bash tools.sh

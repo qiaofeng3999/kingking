@@ -1,0 +1,9 @@
+文件名：87-yabs.sh-2.4-YABS.txt
+
+编号（原）：2.4
+名称：YABS
+原始文件名：yabs.sh
+描述说明：综合性能测试，包含CPU、内存、磁盘和网络，支持Geekbench 5选项。
+
+对应命令：
+curl -sL yabs.sh | bash

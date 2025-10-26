@@ -1,0 +1,9 @@
+文件名：116-aria2.sh-8.9-Aria2.txt
+
+编号（原）：8.9
+名称：Aria2
+原始文件名：aria2.sh
+描述说明：安装Aria2下载工具，支持多协议下载。
+
+对应命令：
+wget -N git.io/aria2.sh && chmod +x aria2.sh && ./aria2.sh

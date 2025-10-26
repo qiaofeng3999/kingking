@@ -1,0 +1,5 @@
+文件名：50-勇哥-Warp.txt
+
+名称：勇哥-Warp
+描述：Cloudflare WARP脚本，添加IPv4/IPv6网络。
+命令：bash <(curl -Ls https://gitlab.com/rwkgyg/CFwarp/raw/main/CFwarp.sh)

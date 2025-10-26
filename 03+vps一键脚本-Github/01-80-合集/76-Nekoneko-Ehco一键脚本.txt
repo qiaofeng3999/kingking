@@ -1,0 +1,5 @@
+文件名：76-Nekoneko-Ehco一键脚本.txt
+
+名称：Nekoneko-Ehco一键脚本
+描述：一键安装Ehco工具。
+命令：bash <(curl -Lso- http://sh.nekoneko.cloud/ehco.sh/ehco.sh)

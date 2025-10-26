@@ -1,0 +1,5 @@
+文件名：72-测试IPv4-IPv6优先.txt
+
+名称：测试IPv4-IPv6优先
+描述：检查IPv4/IPv6优先级。
+命令：curl ip.p3terx.com

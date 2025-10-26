@@ -1,0 +1,5 @@
+文件名：32-vps_scripts.txt
+
+名称：vps_scripts
+描述：VPS运维脚本工具。
+命令：wget -O vps_scripts.sh https://raw.githubusercontent.com/everett7623/vps_scripts/main/vps_scripts.sh && chmod +x vps_scripts.sh && ./vps_scripts.sh

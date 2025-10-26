@@ -1,0 +1,5 @@
+文件名：80-一键安装filebrowser平台.txt
+
+名称：一键安装filebrowser平台
+描述：安装filebrowser，支持文件上传下载、分享链接等，端口默认3030。
+命令：curl -L https://raw.githubusercontent.com/spiritLHLS/one-click-installation-script/main/install_scripts/filebrowser.sh -o filebrowser.sh && chmod +x filebrowser.sh && bash filebrowser.sh

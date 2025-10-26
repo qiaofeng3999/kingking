@@ -1,0 +1,5 @@
+文件名：59-3X-UI.txt
+
+名称：3X-UI
+描述：3X-UI面板安装脚本。
+命令：bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)

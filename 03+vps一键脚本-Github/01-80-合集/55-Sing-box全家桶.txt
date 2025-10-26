@@ -1,0 +1,5 @@
+文件名：55-Sing-box全家桶.txt
+
+名称：Sing-box全家桶
+描述：一键安装Sing-box工具。
+命令：bash <(wget -qO- https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-box.sh)

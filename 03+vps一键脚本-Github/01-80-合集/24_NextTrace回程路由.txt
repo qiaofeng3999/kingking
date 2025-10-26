@@ -1,0 +1,7 @@
+文件名：24_NextTrace回程路由
+
+描述：
+测试回程路由。
+
+命令：
+curl nxtrace.org/nt | bash

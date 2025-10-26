@@ -1,0 +1,7 @@
+文件名：04_LemonBench
+
+描述：
+检查VPS基本信息、网络、流媒体解锁、路由等。
+
+命令：
+wget -qO- https://raw.githubusercontent.com/LemonBench/LemonBench/main/LemonBench.sh | bash -s -- --fast

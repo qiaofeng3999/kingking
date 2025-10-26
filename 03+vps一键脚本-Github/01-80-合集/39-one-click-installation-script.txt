@@ -1,0 +1,5 @@
+文件名：39-one-click-installation-script.txt
+
+名称：one-click-installation-script
+描述：一键修复与安装脚本，需从GitHub选择所需脚本。
+命令：https://github.com/spiritLHLS/one-click-installation-script

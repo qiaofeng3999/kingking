@@ -1,0 +1,5 @@
+文件名：73-PagerMaid-Pyro机器人Docker安装.txt
+
+名称：PagerMaid-Pyro机器人Docker安装
+描述：安装TG自走机器人（需VPS）。
+命令：wget https://raw.githubusercontent.com/TeamPGM/PagerMaid-Pyro/development/utils/docker.sh -O docker.sh && chmod +x docker.sh && bash docker.sh

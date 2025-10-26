@@ -1,0 +1,9 @@
+文件名：97-network-speed.xyz-5.4-全球测速.txt
+
+编号（原）：5.4
+名称：全球测速
+原始文件名：network-speed.xyz
+描述说明：全球节点网络测速，评估服务器全球连接速度。
+
+对应命令：
+curl -sL network-speed.xyz | bash

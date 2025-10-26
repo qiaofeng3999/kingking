@@ -1,0 +1,5 @@
+文件名：30-Pingsx-Ping.txt
+
+名称：Pingsx-Ping
+描述：在线Ping、Port、DNS、MTR测试。
+命令：https://ping.sx

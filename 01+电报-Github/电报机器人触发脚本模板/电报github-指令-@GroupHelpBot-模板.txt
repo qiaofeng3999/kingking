@@ -1,0 +1,67 @@
+ 自定义个性化设置指令
+  自定义个性化设置指令
+   自定义个性化设置指令 
+    自定义个性化设置指令
+     自定义个性化设置指令
+      自定义个性化设置指令
+
+
+<b>欢迎使用 GitHub 资源列表！</b><br>
+这里是精选的 GitHub 仓库和用户链接，涵盖代理工具、节点订阅、激活脚本等资源。  
+
+CMLiussss大神 - <a href="https://github.com/cmliu">https://github.com/cmliu</a> && 甬哥侃侃侃ygkkk - <a href="https://github.com/yonggekkk">https://github.com/yonggekkk</a><br>
+3Kmfi6HP大神 - <a href="https://github.com/6Kmfi6HP">https://github.com/6Kmfi6HP</a> && 佬王 - <a href="https://github.com/eooce">https://github.com/eooce</a><br>
+饭奇俊 - <a href="https://github.com/frankiejun">https://github.com/frankiejun</a> && AM科技 - <a href="https://github.com/avinashkranjan/Amazing-Python-Scripts">https://github.com/avinashkranjan/Amazing-Python-Scripts</a><br>
+电脑Clash - <a href="https://github.com/MetaCubeX/mihomo">https://github.com/MetaCubeX/mihomo</a> && ClashXMeta - <a href="https://github.com/MetaCubeX/ClashX.Meta">https://github.com/MetaCubeX/ClashX.Meta</a><br>
+v2ray - <a href="https://github.com/233boy/v2ray/releases">https://github.com/233boy/v2ray/releases</a> && v2rayN - <a href="https://github.com/2dust/v2rayN">https://github.com/2dust/v2rayN</a><br>
+记事本加加 - <a href="https://github.com/notepad-plus-plus/notepad-plus-plus">https://github.com/notepad-plus-plus/notepad-plus-plus</a> && ZYPlayer播放器 - <a href="https://github.com/Hunlongyu/ZY-Player">https://github.com/Hunlongyu/ZY-Player</a><br>
+IDM激活脚本 - <a href="https://github.com/lstprjct/IDM-Activation-Script?tab=readme-ov-file">https://github.com/lstprjct/IDM-Activation-Script?tab=readme-ov-file</a> && 安卓Clash Meta For Android - <a href="https://github.com/MetaCubeX/ClashMetaForAndroid">https://github.com/MetaCubeX/ClashMetaForAndroid</a><br>
+ClashMetaForAndroid - <a href="https://github.com/MetaCubeX/ClashMetaForAndroid">https://github.com/MetaCubeX/ClashMetaForAndroid</a> && 免费节点订阅 - <a href="https://github.com/chengaopan/AutoMergePublicNodes">https://github.com/chengaopan/AutoMergePublicNodes</a><br>
+每日分享节点 - <a href="https://github.com/free18/v2ray">https://github.com/free18/v2ray</a> && 免费v2ray节点 - <a href="https://github.com/free-nodes/v2rayfree">https://github.com/free-nodes/v2rayfree</a><br>
+CM自建汇聚订阅 - <a href="https://github.com/cmliu/CF-Workers-SUB">https://github.com/cmliu/CF-Workers-SUB</a> && XPanel 面板 - <a href="https://github.com/xeefei/x-panel">https://github.com/xeefei/x-panel</a><br>
+BPB面板 - <a href="https://github.com/amclubs/BPB-Worker-Panel">https://github.com/amclubs/BPB-Worker-Panel</a> && 代理软件规则 - <a href="https://github.com/Hackl0us/SS-Rule-Snippet">https://github.com/Hackl0us/SS-Rule-Snippet</a><br>
+懒人配置毒奶 - <a href="https://github.com/limbopro/Profiles4limbo">https://github.com/limbopro/Profiles4limbo</a> && V2rayNClash下载 - <a href="https://github.com/tolinkshare2/tolinkshare2.github.io">https://github.com/tolinkshare2/tolinkshare2.github.io</a><br>
+CloudFlare图床 - <a href="https://github.com/MarSeventh/CloudFlare-ImgBed">https://github.com/MarSeventh/CloudFlare-ImgBed</a> && 电脑v2rayN - <a href="https://github.com/2dust/v2rayN">https://github.com/2dust/v2rayN</a><br>
+自选优选IP - <a href="https://github.com/XIU2/CloudflareSpeedTest">https://github.com/XIU2/CloudflareSpeedTest</a> && cloudflaremail邮箱 - <a href="https://github.com/eoao/cloud-mail">https://github.com/eoao/cloud-mail</a><br>
+
+---
+💯🐶🔕🔷➕🚩🔵🍺💯🐶🔕🔷➕🚩🔵🍺💯🐶🔕🔷➕🚩🔵🍺💯🐶🔕🔷➕🚩🔵🍺💯
+ 💦♨🐔🍀🔵⌛🌹🔀💦♨🐔🍀🔵⌛🌹🔀💦♨🐔🍀🔵⌛🌹🔀💦♨🐔🍀🔵⌛🌹🔀💦♨🐔
+
+<b>欢迎使用 GitHub 资源列表！</b><br>
+这里是精选的 GitHub 仓库和用户链接，涵盖代理工具、节点订阅、激活脚本等资源。  
+
+小火箭脚本中心 - <a href="https://github.com/Script-Hub-Org/Script-Hub">https://github.com/Script-Hub-Org/Script-Hub</a> && 免费开发者 - <a href="https://github.com/ripienaar/free-for-dev">https://github.com/ripienaar/free-for-dev</a><br>
+订阅转换 - <a href="https://github.com/7Sageer/sublink-worker">https://github.com/7Sageer/sublink-worker</a> && 自用clash订阅链接 - <a href="https://github.com/anaer/Sub">https://github.com/anaer/Sub</a><br>
+Xray基于Nginx的VLESS - <a href="https://github.com/wulabing/Xray_onekey">https://github.com/wulabing/Xray_onekey</a> && 订阅转换测速测活 - <a href="https://github.com/beck-8/subs-check">https://github.com/beck-8/subs-check</a><br>
+VPS轻量通知系统 - <a href="https://github.com/MEILOI/scripts">https://github.com/MEILOI/scripts</a> && 网络电视 - <a href="https://github.com/iptv-org/iptv">https://github.com/iptv-org/iptv</a><br>
+iptvapi - <a href="https://github.com/Guovin/iptv-api">https://github.com/Guovin/iptv-api</a> && shadowrocket规则 - <a href="https://github.com/deezertidal/shadowrocket-rules">https://github.com/deezertidal/shadowrocket-rules</a><br>
+SSR去广告ACL规则 - <a href="https://github.com/ACL4SSR/ACL4SSR">https://github.com/ACL4SSR/ACL4SSR</a> && Xraycore脚本 - <a href="https://github.com/XTLS/Xray-core">https://github.com/XTLS/Xray-core</a><br>
+歇斯底里 - <a href="https://github.com/apernet/hysteria">https://github.com/apernet/hysteria</a> && 歇斯底里2 - <a href="https://github.com/seagullz4/hysteria2">https://github.com/seagullz4/hysteria2</a><br>
+singbox八合一一键脚本 - <a href="https://github.com/mack-a/v2ray-agent">https://github.com/mack-a/v2ray-agent</a> && thefuck - <a href="https://github.com/nvbn/thefuck">https://github.com/nvbn/thefuck</a><br>
+scrcpy安卓 - <a href="https://github.com/Genymobile/scrcpy">https://github.com/Genymobile/scrcpy</a> && escrcpy安卓 - <a href="https://github.com/viarotel-org/escrcpy">https://github.com/viarotel-org/escrcpy</a><br>
+QtScrcpy安卓 - <a href="https://github.com/barry-ran/QtScrcpy">https://github.com/barry-ran/QtScrcpy</a> && 哪吒 - <a href="https://github.com/nezhahq/nezha">https://github.com/nezhahq/nezha</a><br>
+
+
+
+
+ 💯🐶🔕🔷➕🚩🔵🍺💯🐶🔕🔷➕🚩🔵🍺💯🐶🔕🔷➕🚩🔵🍺💯🐶🔕🔷➕🚩🔵🍺💯🐶🔕🔷➕🚩🔵🍺
+  💯🐶🔕🔷➕🚩🔵🍺💯🐶🔕🔷➕🚩🔵🍺💯🐶🔕🔷➕🚩🔵🍺💯🐶🔕🔷➕🚩🔵🍺💯🐶🔕🔷➕🚩🔵🍺
+  💯🐶🔕🔷➕🚩🔵🍺💯🐶🔕🔷➕🚩🔵🍺💯🐶🔕🔷➕🚩🔵🍺💯🐶🔕🔷➕🚩🔵🍺💯🐶🔕🔷➕🚩🔵🍺
+  
+  
+<b>自定义个性化设置指令</b><br>
+1️⃣ 🔹 <b>打开机器人</b>  <a href="https://t.me/GHClone4Bot">@GHClone4Bot</a><br>
+2️⃣ 🔍 在私聊中，点击 <b>找到其它</b>，然后选择 <b>个性化指令</b>，点击 <b>添加</b><br>
+3️⃣ ↩️ 返回到群聊，群组内发送你需要自定义的 <b>HTML 文本格式</b>，并发送。<br>
+4️⃣ 💬 在回复的HTML消息后，输入命令：<code>/personal 自定义名称</code>，例如：<code>/personal github</code><br><br>
+<b>如果需要删除自定义指令：</b><br>
+1️⃣ 🗑️ 在群组中，直接发送命令：<code>/remove !删除指令</code><br>
+2️⃣ 例如：<code>/personal !github</code><br><br>
+<b>查看自己的自定义个性化指令步骤：</b><br>
+1️⃣ 👤 打开机器人 <a href="https://t.me/GHClone4Bot">@GHClone4Bot</a><br>
+2️⃣ 📋 找到 <b>个性化指令</b>
+
+
+
+/personal 自定义指令名称                /remove !删除指令

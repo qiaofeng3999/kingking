@@ -1,0 +1,122 @@
+当然，下面是这些机器人的用途简单描述：
+
+1. **@BotFather**
+   官方创建机器人。用来创建和管理你的 Telegram 机器人，设置命令、描述、头像等。
+2. **@LivegramBot**
+   官方创建机器人。用于生成 Telegram 机器人的 API Token，方便用户进行机器人开发。
+3. **@SpamBot**
+   官方申诉机器人。用于申诉 Telegram 群组中的垃圾信息或违规行为，帮助管理员处理群组问题。
+4. **@GroupHelpBot**
+   创建规则按钮机器人。帮助群主和管理员为群组添加自定义规则按钮，使群组成员可以查看规则。
+5. **@MissRose_bot**
+   提供 Telegram 机器人开发和自动化服务的机器人，通常是用于自动化任务和管理。
+6. **[https://t.me/TelegramTips](https://t.me/TelegramTips)**
+   提供 Telegram 使用技巧和建议的官方频道，帮助用户更好地使用 Telegram 的各种功能。
+7. **@KinhRoBot**
+   查看账户数据中心。用于查看和管理 Telegram 账户中的统计数据和信息。
+8. **@nminfobot**
+   ID 查询机器人。用户可以查询自己的 Telegram ID，帮助用户获取账户信息。
+9. **[https://t.me/zh_cnaank](https://t.me/zh_cnaank)**
+   简体中文。用于提供 Telegram 的简体中文帮助和指南。
+10. **[https://t.me/zh_cnymn](https://t.me/zh_cnymn)**
+    中文安装包。用于提供 Telegram 中文版的下载或安装包信息。
+11. **[https://t.me/zh_cn5rh](https://t.me/zh_cn5rh)**
+    中文翻译简体中文。提供简体中文翻译服务，帮助用户翻译信息。
+12. **@TempMail_org_bot**
+    临时邮箱。用于生成临时的匿名电子邮件地址，保护用户隐私，防止垃圾邮件。
+13. **@checktgtime_bot**
+    查询注册时间。帮助用户查询自己 Telegram 账户的注册时间，查看账号创建历史。
+14. **@nmnmfunbot**
+    群组机器人。用于群组管理，自动化处理群组任务，比如发通知、管理用户等。
+15. **@userinfobot**
+    转发一条消息给我，我会把用户 ID 发给你。帮助用户获取聊天或消息中的用户 ID，通常用于机器人管理和排查。
+
+
+@BotFather
+官方创建机器人。用于创建 Telegram 机器人并管理其设置（如命令、描述、头像等）。
+
+@LivegramBot
+官方创建机器人。为 Telegram 用户提供实时数据和统计信息。
+
+@SpamBot
+官方申诉机器人。用于报告和处理 Telegram 群组中的垃圾信息或违规行为。
+
+@GroupHelpBot
+创建规则按钮机器人。帮助群主为群组添加自定义规则按钮，让成员可以轻松查看群规。
+
+@combot
+群组管理机器人。提供反垃圾、统计、自动化管理等功能，增强群组的管理体验。
+
+@VersaToolsBot
+提供各种工具功能的机器人，帮助用户进行网络分析、任务自动化等。
+
+@MissRose_bot
+Telegram 机器人开发工具，通常用于自动化任务和群组管理。
+
+https://t.me/TelegramTips
+
+提供 Telegram 使用技巧和教程的频道，帮助用户更好地使用 Telegram。
+
+@KinhRoBot
+查看账户数据中心，提供有关 Telegram 账户统计和数据管理的服务。
+
+@nminfobot
+ID 查询机器人，帮助用户查询自己的 Telegram ID。
+
+https://t.me/zh_cnaank
+
+简体中文。提供 Telegram 的简体中文帮助和使用指南。
+
+https://t.me/zh_cnymn
+
+中文安装包。提供 Telegram 中文版的下载和安装包信息。
+
+https://t.me/zh_cn5rh
+
+中文翻译简体中文。提供简体中文翻译服务。
+
+@TempMail_org_bot
+临时邮箱生成器，提供匿名、一次性的电子邮件地址，保护用户隐私。
+
+@checktgtime_bot
+查询 Telegram 账户的注册时间，查看账户创建的历史。
+
+@nmnmfunbot
+群组机器人，用于群组管理和自动化任务，如发通知和管理成员。
+
+@userinfobot
+帮助用户获取他人 Telegram 用户 ID，通常用于群组管理和排查。
+
+https://t.me/warppluscn
+
+提供 WARP+ 加速服务的 Telegram 频道。
+
+https://t.me/warpplus
+
+提供 WARP+ 服务相关信息，帮助用户了解和使用 WARP 加速功能。
+
+https://t.me/dns68
+
+提供 DNS 相关信息和设置，帮助用户优化网络连接。
+
+https://t.me/digitalplatdomain
+
+提供数字平台域名服务的频道。
+
+@vid
+视频相关功能的机器人，帮助用户处理视频文件，进行格式转换等操作。
+
+https://t.me/GUI_for_Cores_Channel
+
+提供 Cores 系统图形界面的频道，帮助用户使用和配置系统。
+
+https://t.me/LoonNews
+
+提供 Loon 相关信息和新闻，通常涉及网络、VPN 等工具。
+
+@YTsavebot
+YouTube 视频下载机器人，帮助用户将 YouTube 视频下载到本地。
+
+
+@SaveOFFbot
+提供在线资源保存和管理的功能。

@@ -1,0 +1,9 @@
+文件名：81-InstallNET.sh-1.2-DD Windows脚本.txt
+
+编号（原）：1.2
+名称：DD Windows脚本
+原始文件名：InstallNET.sh
+描述说明：重装Windows 10系统，默认账户Administrator，密码Teddysun.com，支持中文语言。
+
+对应命令：
+bash <(curl -sSL https://raw.githubusercontent.com/leitbogioro/Tools/master/Linux_reinstall/InstallNET.sh) -windows 10 -lang "cn"

@@ -1,0 +1,10 @@
+文件名：124-warp.sh-10.4-MISAKA WARP.txt
+
+编号（原）：10.4
+名称：MISAKA WARP
+原始文件名：warp.sh
+描述说明：安装WARP，优化网络连接，支持多种配置选项。
+
+对应命令：
+wget -N https://gitlab.com/Misaka-blog/warp-script/-/raw/main/warp.sh && bash warp.sh
+bash warp.sh

@@ -1,0 +1,7 @@
+文件名：09_Geekbench5
+
+描述：
+专门测试Geekbench 5性能。
+
+命令：
+bash <(curl -sL gb5.top)

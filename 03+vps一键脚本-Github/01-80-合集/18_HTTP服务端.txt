@@ -1,0 +1,7 @@
+文件名：18_HTTP服务端
+
+描述：
+HTTP单线程下载测试（服务端）。
+
+命令：
+python3 -m http.server

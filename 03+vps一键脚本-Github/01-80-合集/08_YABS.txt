@@ -1,0 +1,7 @@
+文件名：08_YABS
+
+描述：
+全面测试VPS性能，包括配置信息、磁盘IO、网络带宽和Geekbench测试。
+
+命令：
+curl -sL yabs.sh | bash

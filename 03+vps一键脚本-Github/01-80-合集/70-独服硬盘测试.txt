@@ -1,0 +1,5 @@
+文件名：70-独服硬盘测试.txt
+
+名称：独服硬盘测试
+描述：测试独立服务器硬盘性能。
+命令：wget -q https://github.com/Aniverse/A/raw/i/a && bash a

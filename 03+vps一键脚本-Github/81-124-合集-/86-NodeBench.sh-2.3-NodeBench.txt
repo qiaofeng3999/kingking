@@ -1,0 +1,9 @@
+文件名：86-NodeBench.sh-2.3-NodeBench.txt
+
+编号（原）：2.3
+名称：NodeBench
+原始文件名：NodeBench.sh
+描述说明：测试服务器性能，侧重于节点质量和网络稳定性。
+
+对应命令：
+bash <(curl -sL https://raw.githubusercontent.com/LloydAsp/NodeBench/main/NodeBench.sh)

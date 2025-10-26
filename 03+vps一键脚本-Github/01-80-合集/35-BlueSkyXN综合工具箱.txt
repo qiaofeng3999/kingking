@@ -1,0 +1,5 @@
+文件名：35-BlueSkyXN综合工具箱.txt
+
+名称：BlueSkyXN综合工具箱
+描述：多功能VPS工具箱。
+命令：wget -O box.sh https://raw.githubusercontent.com/BlueSkyXN/SKY-BOX/main/box.sh && chmod +x box.sh && clear && ./box.sh

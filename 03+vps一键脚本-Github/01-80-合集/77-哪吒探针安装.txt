@@ -1,0 +1,5 @@
+文件名：77-哪吒探针安装.txt
+
+名称：哪吒探针安装
+描述：安装哪吒探针监控工具。
+命令：curl -L https://raw.githubusercontent.com/naiba/nezha/master/script/install.sh -o nezha.sh && chmod +x nezha.sh && sudo ./nezha.sh

@@ -1,0 +1,9 @@
+文件名：88-yabs.sh-2.5-YABS (Geekbench 5).txt
+
+编号（原）：2.5
+名称：YABS (Geekbench 5)
+原始文件名：yabs.sh
+描述说明：使用Geekbench 5进行服务器性能测试，专注于CPU性能。
+
+对应命令：
+curl -sL yabs.sh | bash -5

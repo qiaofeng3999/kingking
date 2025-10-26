@@ -1,0 +1,5 @@
+文件名：38-轻量VPS测试集合.txt
+
+名称：轻量VPS测试集合
+描述：轻量级VPS测试工具集合。
+命令：bash <(curl -Ls resource.yserver.ink/all.sh) --custom

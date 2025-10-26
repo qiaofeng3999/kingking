@@ -1,0 +1,9 @@
+文件名：119-kejilion.sh-9.1-科技Lion.txt
+
+编号（原）：9.1
+名称：科技Lion
+原始文件名：kejilion.sh
+描述说明：多功能综合脚本，包含系统优化、测试和环境安装。
+
+对应命令：
+curl -sS -O https://kejilion.pro/kejilion.sh && chmod +x kejilion.sh && ./kejilion.sh

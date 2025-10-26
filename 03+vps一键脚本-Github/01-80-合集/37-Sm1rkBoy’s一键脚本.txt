@@ -1,0 +1,5 @@
+文件名：37-Sm1rkBoy’s一键脚本.txt
+
+名称：Sm1rkBoy’s一键脚本
+描述：运维监控配置脚本。
+命令：bash <(curl -Ls https://raw.githubusercontent.com/Sm1rkBoy/monitor_config/main/install.sh)

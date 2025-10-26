@@ -1,0 +1,6 @@
+文件名：27-去程路由.txt
+
+名称：去程路由
+描述：在线去程路由测试。
+https://www.itdog.cn/traceroute/
+https://tools.ipip.net/traceroute.php
