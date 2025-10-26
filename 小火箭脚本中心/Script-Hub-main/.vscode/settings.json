@@ -1,0 +1,10 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "never",
+    "source.fixAll.stylelint": "never",
+    "source.fixAll.eslint": "never"
+  },
+}
