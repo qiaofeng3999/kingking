@@ -1,0 +1,119 @@
+// Created by rocket, improved by ChatGPT
+// Original: https://www.nodeseek.com/post-170862-1
+
+const TELEGRAM_BOT_TOKEN = '替换成你的bot_token';
+const AUTH_TOKEN = '替换成你的Auth-Token';
+const TELEGRAM_API_URL = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}`;
+const IMAGE_UPLOAD_URL = 'https://i.111666.best/image';
+
+export default {
+  async fetch(request) {
+    const url = new URL(request.url);
+
+    // 手动设置 Webhook
+    if (url.pathname === '/setWebhook') {
+      const webhookUrl = `${url.protocol}//${url.host}/webhook`;
+      const webhookResponse = await setWebhook(webhookUrl);
+      return webhookResponse.ok
+        ? new Response(`Webhook set to ${webhookUrl}`)
+        : new Response(`Failed: ${JSON.stringify(webhookResponse)}`, { status: 500 });
+    }
+
+    // 接收 Telegram 消息
+    if (url.pathname === '/webhook' && request.method === 'POST') {
+      try {
+        const update = await request.json();
+        const chatId = update.message?.chat?.id;
+
+        if (!chatId) return new Response('No chat', { status: 200 });
+
+        // 用户发送文本
+        if (update.message.text) {
+          await sendMessage(chatId, '请发给我一张图片');
+          return new Response('Asked for image', { status: 200 });
+        }
+
+        // 用户发送图片
+        if (update.message.photo) {
+          await sendMessage(chatId, '图片收到，正在上传中...');
+          const photoArray = update.message.photo;
+          const fileId = photoArray[photoArray.length - 1].file_id;
+          const fileUrl = await getFileUrl(fileId);
+          const uploadResponse = await uploadImage(fileUrl);
+
+          if (uploadResponse.ok) {
+            const imageUrl = `https://i.111666.best${uploadResponse.src}`;
+            await sendImageMessage(chatId, imageUrl);
+          } else {
+            await sendMessage(chatId, '图片上传失败，请稍后再试。');
+          }
+          return new Response('Processed', { status: 200 });
+        }
+      } catch (err) {
+        console.error("Webhook error:", err);
+        return new Response('Error', { status: 500 });
+      }
+    }
+
+    return new Response('Not Found', { status: 404 });
+  }
+};
+
+// 发送文本
+async function sendMessage(chatId, text) {
+  await fetch(`${TELEGRAM_API_URL}/sendMessage`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ chat_id: chatId, text })
+  });
+}
+
+// 发送图片+链接
+async function sendImageMessage(chatId, imageUrl) {
+  const markdownLink = `![Image](${imageUrl})`;
+  const bbcodeLink = `[img]${imageUrl}[/img]`;
+
+  const message = `<b>Direct Link</b>\n<pre>${imageUrl}</pre>\n\n<b>Markdown</b>\n<pre>${markdownLink}</pre>\n\n<b>BBCode</b>\n<pre>${bbcodeLink}</pre>`;
+
+  await fetch(`${TELEGRAM_API_URL}/sendPhoto`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      chat_id: chatId,
+      photo: imageUrl,
+      caption: message,
+      parse_mode: "HTML"
+    })
+  });
+}
+
+async function getFileUrl(fileId) {
+  const res = await fetch(`${TELEGRAM_API_URL}/getFile?file_id=${fileId}`);
+  const data = await res.json();
+  const path = data.result.file_path;
+  return `https://api.telegram.org/file/bot${TELEGRAM_BOT_TOKEN}/${path}`;
+}
+
+async function uploadImage(url) {
+  const img = await fetch(url);
+  const blob = await img.blob();
+  const formData = new FormData();
+  formData.append('image', blob, 'image.jpg');
+
+  const res = await fetch(IMAGE_UPLOAD_URL, {
+    method: 'POST',
+    headers: { 'Auth-Token': AUTH_TOKEN },
+    body: formData
+  });
+  const result = await res.json();
+  return res.ok && result.ok ? { ok: true, src: result.src } : { ok: false };
+}
+
+async function setWebhook(webhookUrl) {
+  const res = await fetch(`${TELEGRAM_API_URL}/setWebhook`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ url: webhookUrl })
+  });
+  return res.json();
+}
