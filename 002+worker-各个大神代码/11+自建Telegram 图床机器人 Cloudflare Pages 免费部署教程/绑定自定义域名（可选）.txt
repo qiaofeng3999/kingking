@@ -1,0 +1,133 @@
+// Bot Worker
+const TELEGRAM_BOT_TOKEN = '替换成你的bot_token';
+const AUTH_TOKEN = '替换成你的Auth-Token'; 
+const TELEGRAM_API_URL = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}`;
+const IMAGE_UPLOAD_URL = 'https://i.111666.best/image';
+const CUSTOM_DOMAIN = 'https://更改为自己的域名';
+
+export default {
+  async fetch(request) {
+    const url = new URL(request.url);
+
+    // 设置 Webhook
+    if (url.pathname === '/setWebhook') {
+      const webhookUrl = `${url.protocol}//${url.host}/webhook`;
+      const webhookResponse = await setWebhook(webhookUrl);
+      if (webhookResponse.ok) {
+        return new Response(`Webhook set successfully to ${webhookUrl}`, { status: 200 });
+      } else {
+        return new Response(`Failed to set webhook: ${JSON.stringify(webhookResponse)}`, { status: 500 });
+      }
+    }
+
+    // 接收 Telegram Webhook
+    if (url.pathname === '/webhook' && request.method === 'POST') {
+      try {
+        const update = await request.json();
+        if (update.message) {
+          const chatId = update.message.chat.id;
+
+          if (update.message.text) {
+            await sendMessage(chatId, '请发给我一张图片');
+            return new Response('Asked for image', { status: 200 });
+          }
+
+          if (update.message.photo) {
+            await sendMessage(chatId, '图片收到，正在上传中...');
+
+            const photoArray = update.message.photo;
+            const fileId = photoArray[photoArray.length - 1].file_id;
+
+            const fileUrl = await getFileUrl(fileId);
+            const uploadResponse = await uploadImage(fileUrl);
+
+            if (uploadResponse.ok) {
+              // ✅ 返回自定义域名
+              let imageUrl = `${CUSTOM_DOMAIN}${uploadResponse.src}`;
+
+              await sendImageMessage(chatId, imageUrl);
+              return new Response('Image processed and uploaded', { status: 200 });
+            } else {
+              await sendMessage(chatId, '图片上传失败，请稍后再试。');
+              return new Response('Upload failed', { status: 500 });
+            }
+          }
+        }
+
+        return new Response('No message found', { status: 200 });
+      } catch (err) {
+        console.error("Webhook error:", err);
+        return new Response('Error processing request', { status: 500 });
+      }
+    }
+
+    return new Response('Not found', { status: 404 });
+  }
+};
+
+// ------------------- Helper Functions -------------------
+async function sendMessage(chatId, text) {
+  await fetch(`${TELEGRAM_API_URL}/sendMessage`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ chat_id: chatId, text })
+  });
+}
+
+async function sendImageMessage(chatId, imageUrl) {
+  const markdownLink = `![Image](${imageUrl})`;
+  const bbcodeLink = `[img]${imageUrl}[/img]`;
+
+  const messageText = `<b>Direct Link</b>\n<pre>${imageUrl}</pre>\n\n<b>Markdown</b>\n<pre>${markdownLink}</pre>\n\n<b>BBCode</b>\n<pre>${bbcodeLink}</pre>`;
+
+  await fetch(`${TELEGRAM_API_URL}/sendPhoto`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      chat_id: chatId,
+      photo: imageUrl,
+      caption: messageText,
+      parse_mode: "HTML"
+    })
+  });
+}
+
+async function getFileUrl(fileId) {
+  const res = await fetch(`${TELEGRAM_API_URL}/getFile?file_id=${fileId}`);
+  const data = await res.json();
+  if (!data.ok) throw new Error("Failed to get file path");
+  const filePath = data.result.file_path;
+  return `https://api.telegram.org/file/bot${TELEGRAM_BOT_TOKEN}/${filePath}`;
+}
+
+async function uploadImage(imageUrl) {
+  const imageResponse = await fetch(imageUrl);
+  const buffer = await imageResponse.arrayBuffer();
+  const blob = new Blob([buffer]);
+
+  const formData = new FormData();
+  formData.append('image', blob, 'image.jpg');
+
+  const res = await fetch(IMAGE_UPLOAD_URL, {
+    method: 'POST',
+    headers: { 'Auth-Token': AUTH_TOKEN },
+    body: formData
+  });
+
+  const result = await res.json();
+  if (res.ok && result.ok) {
+    return { ok: true, src: result.src };
+  } else {
+    console.error("Upload failed:", result);
+    return { ok: false };
+  }
+}
+
+async function setWebhook(webhookUrl) {
+  const res = await fetch(`${TELEGRAM_API_URL}/setWebhook`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ url: webhookUrl })
+  });
+  return res.json();
+}

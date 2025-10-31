@@ -1,0 +1,34 @@
+
+
+
+
+
+URL长链接链接-脚本代码+变量名称
+
+
+先添加自定义域名-再添加变量
+
+变量      BASE_URL  输入自己的自定义域名
+
+的自定义域名   https://url.hokegamingop.eu.org/    需要加上 https://   最后加上 /
+
+变量大写  DB    数据库名称  shorturl-db 
+控制台填写下面内容
+控制台填写下面内容控制台填写下面内容
+控制台填写下面内容
+需要绑定D1数据库
+
+D1数据库变量名称 必须 shorturl-db
+需要在D1数据库保存下面内容
+控制台填写下面内容
+
+
+
+CREATE TABLE IF NOT EXISTS short_urls (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    long_url TEXT NOT NULL,
+    short_code VARCHAR(10) UNIQUE NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    clicks INTEGER DEFAULT 0
+);
+CREATE INDEX IF NOT EXISTS idx_short_code ON short_urls(short_code);
